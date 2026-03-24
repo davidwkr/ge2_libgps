@@ -16,6 +16,8 @@ The primary goal is to ensure stable and fast GPS locks on devices using this ha
   - `apply_movistar_fix.sh`: Standalone fix specifically for Movistar Argentina.
   - `apply_movistar_no_cp_fix.sh`: Standalone fix for Movistar WITHOUT Control Plane.
   - `deploy_fix.sh`: Interactive tool to list devices and deploy any of the above fixes.
+  - `apply_logging_fix.sh`: Standalone script to enable persistent boot-time GNSS logging.
+  - `remove_logging_fix.sh`: Standalone script to disable logging and cleanup files.
   - `legacy_movistar_fix.sh`: Specialized fix for Movistar networks.
   - `revert_to_stock_configs.sh`: Recompression of the original vendor states.
 
