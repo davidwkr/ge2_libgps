@@ -77,7 +77,7 @@ echo "[STEP 1/3] Pushing $SCRIPT to /data/local/tmp/fix.sh..."
 adb -s "$TARGET_SERIAL" push "$SCRIPT" /data/local/tmp/fix.sh
 
 echo "[STEP 2/3] Executing fix script as root..."
-adb -s "$TARGET_SERIAL" shell "chmod +x /data/local/tmp/fix.sh && su -c /data/local/tmp/fix.sh"
+adb -s "$TARGET_SERIAL" shell "chmod +x /data/local/tmp/fix.sh && echo 'sh /data/local/tmp/fix.sh' | su"
 
 echo "[STEP 3/3] Rebooting device..."
 adb -s "$TARGET_SERIAL" reboot
