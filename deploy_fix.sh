@@ -41,7 +41,12 @@ if [ -z "$TARGET_SERIAL" ]; then
     exit 1
 fi
 
-echo "Targeting Device: $TARGET_SERIAL"
+# Re-fetch metadata for the selected device
+TARGET_MODEL=$(adb -s "$TARGET_SERIAL" shell getprop ro.product.model)
+TARGET_MCCMNC=$(adb -s "$TARGET_SERIAL" shell getprop gsm.sim.operator.numeric | cut -d, -f1 | tr -dc '0-9')
+[ -z "$TARGET_MCCMNC" ] && TARGET_MCCMNC="[Offline/No SIM]"
+
+echo "Targeting Device: $TARGET_SERIAL ($TARGET_MODEL)"
 echo ""
 echo "Available Configurations:"
 echo " [1] Universal Fix (Master Framework Sync - Dynamic MCC/MNC)"
@@ -89,8 +94,15 @@ else
     echo "Skipping reboot. Remember to reboot manually."
 fi
 
+# Log the deployment
+LOG_FILE="deployment_history.log"
+DATE_STR=$(date "+%Y-%m-%d %H:%M:%S")
+echo "[$DATE_STR] Device:$TARGET_SERIAL | Model:$TARGET_MODEL | Carrier:$TARGET_MCCMNC | Fix:$SCRIPT" >> "$LOG_FILE"
+
 echo ""
 echo "------------------------------------------------"
 echo "  SUCCESS: Fix deployed to $TARGET_SERIAL."
+echo "  Targeting was: $TARGET_MODEL ($TARGET_MCCMNC)"
+echo "  History recorded in $LOG_FILE"
 echo "  Wait for reboot and check GNSS status."
 echo "------------------------------------------------"
