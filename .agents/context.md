@@ -14,6 +14,7 @@ The primary goal is to ensure stable and fast GPS locks on devices using this ha
   - `final_super_universal_fix.sh`: Universal framework sync.
   - `apply_claro_fix.sh`: Standalone fix specifically for Claro Argentina.
   - `apply_movistar_fix.sh`: Standalone fix specifically for Movistar Argentina.
+  - `apply_movistar_no_cp_fix.sh`: Standalone fix for Movistar WITHOUT Control Plane.
   - `deploy_fix.sh`: Interactive tool to list devices and deploy any of the above fixes.
   - `legacy_movistar_fix.sh`: Specialized fix for Movistar networks.
   - `revert_to_stock_configs.sh`: Recompression of the original vendor states.
