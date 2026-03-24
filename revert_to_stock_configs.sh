@@ -151,4 +151,7 @@ restorecon -R /vendor/etc/config.xml 2>/dev/null
 restorecon -R /vendor/etc/supl.xml 2>/dev/null
 restorecon -R /data/gnss/supl/ 2>/dev/null
 
-echo "--- Revert Complete. Please REBOOT. ---"
+# Log On-Device
+echo "[$(date '+%Y-%m-%d %H:%M:%S')] Applied STOCK Revert" >> /data/gnss/fix_history.log
+
+echo "--- Original Vendor Configs Restored. Please REBOOT ---"

@@ -28,7 +28,12 @@ for i in "${!DEVICES[@]}"; do
     MCCMNC=$(adb -s "$SERIAL" shell getprop gsm.sim.operator.numeric | cut -d, -f1 | tr -dc '0-9')
     PRODUCT=$(adb -s "$SERIAL" shell getprop ro.product.model)
     [ -z "$MCCMNC" ] && MCCMNC="[Offline/No SIM]"
-    echo "  [$i] $SERIAL - $PRODUCT (MCCMNC: $MCCMNC)"
+    
+    # Check for on-device history (requires root)
+    LAST_FIX=$(adb -s "$SERIAL" shell "[ -f /data/gnss/fix_history.log ] && tail -n 1 /data/gnss/fix_history.log || echo 'No History Found'")
+    
+    echo "  [$i] $SERIAL - $PRODUCT ($MCCMNC)"
+    echo "      Current State: $LAST_FIX"
 done
 
 echo ""

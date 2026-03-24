@@ -94,4 +94,7 @@ rm -rf /data/gnss/log/* 2>/dev/null
 restorecon -R /vendor/etc/supl.xml 2>/dev/null
 restorecon -R /vendor/etc/config.xml 2>/dev/null
 
-echo "--- Claro Fix Applied. Please REBOOT. ---"
+# Log On-Device
+echo "[$(date '+%Y-%m-%d %H:%M:%S')] Applied CLARO Fix" >> /data/gnss/fix_history.log
+
+echo "--- Fix Applied. Please REBOOT. ---"

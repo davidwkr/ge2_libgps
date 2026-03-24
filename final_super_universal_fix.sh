@@ -113,6 +113,10 @@ restorecon -R /vendor/etc/supl.xml 2>/dev/null
 restorecon -R /data/gnss/supl/ 2>/dev/null
 restorecon -R /vendor/etc/gps.conf 2>/dev/null
 restorecon -R /system/etc/gps.conf 2>/dev/null
+restorecon -R /vendor/etc/config.xml 2>/dev/null # Added for config.xml
+
+# Log On-Device
+echo "[$(date '+%Y-%m-%d %H:%M:%S')] Applied UNIVERSAL Fix" >> /data/gnss/fix_history.log
 
 # 10. Deep Vendor Optimization (config.xml)
 CONFIG_XML="/vendor/etc/config.xml"
