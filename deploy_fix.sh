@@ -79,8 +79,14 @@ adb -s "$TARGET_SERIAL" push "$SCRIPT" /data/local/tmp/fix.sh
 echo "[STEP 2/3] Executing fix script as root..."
 adb -s "$TARGET_SERIAL" shell "chmod +x /data/local/tmp/fix.sh && echo 'sh /data/local/tmp/fix.sh' | su"
 
-echo "[STEP 3/3] Rebooting device..."
-adb -s "$TARGET_SERIAL" reboot
+echo "[STEP 3/3] Deployment finished."
+read -p "Reboot device now to apply changes? [Y/n]: " CONF_REBOOT
+if [[ "$CONF_REBOOT" =~ ^[Yy]$ ]] || [ -z "$CONF_REBOOT" ]; then
+    echo "Rebooting $TARGET_SERIAL..."
+    adb -s "$TARGET_SERIAL" reboot
+else
+    echo "Skipping reboot. Remember to reboot manually."
+fi
 
 echo ""
 echo "------------------------------------------------"
