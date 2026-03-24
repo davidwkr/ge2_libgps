@@ -11,7 +11,8 @@ The primary goal is to ensure stable and fast GPS locks on devices using this ha
   - `supl.xml`: SUPL (Secure User Plane Location) server definitions.
   - `gps.conf`: Android framework-level GNSS settings.
 - **Fix Scripts**:
-  - `final_super_universal_fix.sh`: The "Ultimate Fix" that patches all configurations and flushes GNSS state.
+  - `final_super_universal_fix.sh`: Universal framework sync.
+  - `apply_claro_fix.sh`: Standalone fix specifically for Claro Argentina.
   - `legacy_movistar_fix.sh`: Specialized fix for Movistar networks.
   - `revert_to_stock_configs.sh`: Recompression of the original vendor states.
 
