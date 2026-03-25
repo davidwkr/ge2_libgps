@@ -51,8 +51,8 @@ fi
 SUPL_CONTENT="<?xml version=\"1.0\" encoding=\"utf-8\"?>
 <SPRDGNSS>
     <COMM>
-        <!-- Standard SUPL Block -->
-        <PROTOCOL NAME=\"RX_SUPL_PROTOCOL\" TYPE=\"SUPL\" INTERFACE=\"seth_lte0\">
+        <!-- Standard SUPL Block (WiFi Optimized) -->
+        <PROTOCOL NAME=\"RX_SUPL_PROTOCOL\" TYPE=\"SUPL\" INTERFACE=\"any\">
           <PROPERTY NAME=\"ENABLE\" VALUE=\"TRUE\"/>
           <PROPERTY NAME=\"SERVER-ADDRESS\" VALUE=\"172.217.192.192\"/>
           <PROPERTY NAME=\"SERVER-PORT\" VALUE=\"7275\"/>

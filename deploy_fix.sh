@@ -57,22 +57,24 @@ echo "Available Configurations:"
 echo " [1] Universal Fix (Master Framework Sync - Dynamic MCC/MNC)"
 echo " [2] Claro Argentina Fix (Standalone - Pointing to 172.217.192.192)"
 echo " [3] Movistar Argentina Fix (Standalone - Pointing to 172.217.192.192 + CP Enable)"
-echo " [4] Movistar Argentina (No Control Plane - Experimental)"
-echo " [5] Revert to Stock Config (Point back to unisoc.supl.qxwz.com)"
-echo " [6] ENABLE Persistent GNSS Logging (at boot)"
-echo " [7] DISABLE Persistent GNSS Logging"
+echo " [4] Movistar Argentina (No Control Plane - Standard)"
+echo " [5] Movistar Argentina (No Control Plane + WiFi Optimized)"
+echo " [6] Revert to Stock Config (Point back to unisoc.supl.qxwz.com)"
+echo " [7] ENABLE Persistent GNSS Logging (at boot)"
+echo " [8] DISABLE Persistent GNSS Logging"
 echo " [Q] Quit"
 
-read -p "Choose your action [1-7/Q]: " CONF_IDX
+read -p "Choose your action [1-8/Q]: " CONF_IDX
 
 case $CONF_IDX in
     1) SCRIPT="final_super_universal_fix.sh" ;;
     2) SCRIPT="apply_claro_fix.sh" ;;
     3) SCRIPT="apply_movistar_fix.sh" ;;
     4) SCRIPT="apply_movistar_no_cp_fix.sh" ;;
-    5) SCRIPT="revert_to_stock_configs.sh" ;;
-    6) SCRIPT="apply_logging_fix.sh" ;;
-    7) SCRIPT="remove_logging_fix.sh" ;;
+    5) SCRIPT="apply_movistar_no_cp_wifi_fix.sh" ;;
+    6) SCRIPT="revert_to_stock_configs.sh" ;;
+    7) SCRIPT="apply_logging_fix.sh" ;;
+    8) SCRIPT="remove_logging_fix.sh" ;;
     [qQ]) echo "Exit."; exit 0 ;;
     *) echo "[ERROR] Invalid selection."; exit 1 ;;
 esac
