@@ -1,2 +1,7 @@
 [2026-03-25 00:01:13] Device:02731115778701 | Model:DM63 | Carrier:72207 | Fix:apply_movistar_no_cp_fix.sh
 [2026-03-25 00:35:00] Device:02731115778701 | Model:DM63 | Carrier:72207 | Fix:apply_movistar_no_cp_wifi_fix.sh
+[2026-03-26 13:11:52] Device:94091482306648 | Model:DM63 | Carrier:72207 | Fix:apply_movistar_no_cp_wifi_fix.sh
+[2026-03-26 13:18:48] Device:04814012775703 | Model:DM63 | Carrier:72236 | Fix:apply_logging_fix.sh
+[2026-03-26 15:06:16] Device:23760575006642 | Model:DM63 | Carrier:722310 | Fix:apply_logging_fix.sh
+[2026-03-26 15:06:25] Device:23760575006642 | Model:DM63 | Carrier:722310 | Fix:apply_claro_fix.sh
+[2026-03-28 01:31:26] Device:50148472611849 | Model:DM63 | Carrier:[Offline/No SIM] | Fix:apply_movistar_no_cp_wifi_fix.sh

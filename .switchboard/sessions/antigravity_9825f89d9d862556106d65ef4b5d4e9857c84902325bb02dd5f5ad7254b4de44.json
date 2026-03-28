@@ -1,0 +1,40 @@
+{
+  "sessionId": "antigravity_9825f89d9d862556106d65ef4b5d4e9857c84902325bb02dd5f5ad7254b4de44",
+  "planFile": ".switchboard/plans/antigravity_plans/brain_9825f89d9d862556106d65ef4b5d4e9857c84902325bb02dd5f5ad7254b4de44.md",
+  "brainSourcePath": "/home/latte/.gemini/antigravity/brain/7014e430-bbfc-4bf6-b4cf-42d62800ed93/implementation_plan.md",
+  "topic": "Implementation Plan - Map UI Stability",
+  "createdAt": "2026-03-26T20:23:27.938Z",
+  "source": "antigravity",
+  "events": [
+    {
+      "workflow": "Implementation",
+      "timestamp": "2026-03-26T20:23:27.940Z",
+      "action": "start"
+    },
+    {
+      "workflow": "Implementation",
+      "timestamp": "2026-03-26T20:26:42.486Z",
+      "action": "start"
+    },
+    {
+      "workflow": "Implementation",
+      "timestamp": "2026-03-26T20:37:10.598Z",
+      "action": "start"
+    },
+    {
+      "workflow": "Implementation",
+      "timestamp": "2026-03-26T20:55:59.550Z",
+      "action": "start"
+    },
+    {
+      "workflow": "Implementation",
+      "timestamp": "2026-03-28T02:51:45.841Z",
+      "action": "start"
+    },
+    {
+      "workflow": "Implementation",
+      "timestamp": "2026-03-28T04:50:13.152Z",
+      "action": "start"
+    }
+  ]
+}

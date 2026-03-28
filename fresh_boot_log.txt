@@ -1,0 +1,1000 @@
+03-28 01:20:17.130  3258  9830 V AlarmManager: set(PendingIntent{6efc6b7: PendingIntentRecord{b2d8e24 com.google.android.gms broadcastIntent}}) : type=2 triggerAtTime=89337615 win=0 tElapsed=89337615 maxElapsed=89337615 interval=0 flags=0x5
+03-28 01:20:17.130  3258  9830 D AlarmManagerService: set alarm to kernel: 89337.615000000, type=2 
+03-28 01:20:17.131  9831  9903 I ActivityScheduler: nextTriggerTime: 89338615, in 15896ms, detectorType: 39, FULL_TYPE alarmWindowMillis: 10000
+03-28 01:20:17.131  3258  9830 V AlarmManager: set(PendingIntent{78cad8d: PendingIntentRecord{960be41 com.google.android.gms broadcastIntent}}) : type=2 triggerAtTime=89338615 win=10000 tElapsed=89338615 maxElapsed=89348615 interval=0 flags=0x0
+03-28 01:20:17.132  3258  9830 V AlarmManager: remove(operation) changed bounds; rebatching
+03-28 01:20:17.271  3258  3268 I zygote64: Background concurrent copying GC freed 50105(4MB) AllocSpace objects, 57(1140KB) LOS objects, 42% free, 11MB/20MB, paused 175us total 153.937ms
+03-28 01:20:17.411  3469  3650 I sysui_multi_action: [757,1093,758,4,793,12821,1094,604520961,1095,6]
+03-28 01:20:17.945  3007  3626 E LIBGPS  : begin save flash data,subtype is 31,lenth is 88
+03-28 01:20:18.219  3782  3823 I CPVoiceAgent: select: retrun 0
+03-28 01:20:18.318 11536 11543 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:18.319  6200  6207 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:18.525  3016  3198 D WCND    : is_cp2_alive_ok: open polling interface: /proc/mdbg/loopcheck, fd = 13
+03-28 01:20:18.597  6798  6798 D LocationService: 2026-03-28T04:20:18.596Z: Window#13 finish signal received or interval reached
+03-28 01:20:18.600  6798  6798 D LocationService: 2026-03-28T04:20:18.599Z: Window#13 early processing starting
+03-28 01:20:18.605  6798  6798 D LocationService: 2026-03-28T04:20:18.604Z: GPS high-accuracy session stopped, reason=early-finish
+03-28 01:20:18.607  6798  6798 D LocationService: 2026-03-28T04:20:18.606Z: Early finish triggered for window#13, removed updates, callbackId=208957821
+03-28 01:20:18.608  3258  9830 D BroadcastQueue: Add broadcast <BroadcastRecord{bd50b42 u0 android.location.HIGH_POWER_REQUEST_CHANGE}> into [parallel | background], pending size 0
+03-28 01:20:18.609  3258  3277 D BroadcastQueue: Done with parallel broadcast [background] [BroadcastRecord{bd50b42 u0 android.location.HIGH_POWER_REQUEST_CHANGE}]
+03-28 01:20:18.613  6798  6798 D LocationService: 2026-03-28T04:20:18.612Z: Window#13 early summary: count=1, bestAcc=16.299, locations=[age=2s, acc=16.299]
+03-28 01:20:18.614  3258  9830 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@a301753)
+03-28 01:20:18.615  3007  3007 E LIBGPS  : LIBGPS_W20.40.2_V1.6.1 Version:64bit, gcc:V4.2.1 Compatible Android Clang 5.0.300080 , build time:Jan 20 2026, 23:16:45
+03-28 01:20:18.616  3258  3654 D PowerController.RecogA: handleMessage(MSG_REPORT_EVENT)
+03-28 01:20:18.616  3007  3007 E LIBGPS  : size is 1343
+03-28 01:20:18.617  6798  6798 D LocationService: 2026-03-28T04:20:18.616Z: getLocationInterval: source=USB, plugged=false, interval=15s
+03-28 01:20:18.618  6798  6823 D LocationService: 2026-03-28T04:20:18.617Z: Saving Location: lat=-37.118336, lon=-56.8564757, acc=16.299, battery=100%, charging=true, mode=HIGH_ACCURACY
+03-28 01:20:18.619  6798  6798 D LocationService: 2026-03-28T04:20:18.618Z: Window#13 will schedule next interval=15000, keepGpsRunning=false, forcedFinish=false
+03-28 01:20:18.622  6798  6798 D LocationService: 2026-03-28T04:20:18.620Z: Updates already removed early for window#13, skipping removal
+03-28 01:20:18.625  3016  3198 D WCND    : is_cp2_alive_ok: loop: /proc/mdbg/loopcheck is OK
+03-28 01:20:18.626  6798  6798 D LocationService: 2026-03-28T04:20:18.624Z: Scheduling next window via AlarmManager, cycle interval=15000ms, remaining wait=12768ms
+03-28 01:20:18.630  6798  6798 D LocationService: 2026-03-28T04:20:18.629Z: scheduleNextAlarm: using inexact alarm in 12768ms for USB
+03-28 01:20:18.632  3258  9830 V AlarmManager: set(PendingIntent{ac76890: PendingIntentRecord{70d15c5 com.urbetrack.sweeptracker startService}}) : type=0 triggerAtTime=1774671631397 win=9574 tElapsed=89336986 maxElapsed=89346560 interval=0 flags=0x8
+03-28 01:20:18.634  6798  6798 D LocationService: 2026-03-28T04:20:18.633Z: Released WakeLock for window#13
+03-28 01:20:18.643  3258 20019 V AlarmManager: remove(operation) changed bounds; rebatching
+03-28 01:20:18.644  3258 20019 D AlarmManagerService: set alarm to kernel: 89338.615000000, type=2 
+03-28 01:20:18.645  9831  9903 I ActivityScheduler: nextTriggerTime: 9223372036854775806, in 9223372036765451572ms, detectorType: 32, SLEEP alarmWindowMillis: 3074457345618258602
+03-28 01:20:18.646  3258 20019 W AlarmManager: Window length 3074457345618258602ms suspiciously long; limiting to 1 hour
+03-28 01:20:18.646  3258 20019 V AlarmManager: set(PendingIntent{8239589: PendingIntentRecord{960be41 com.google.android.gms broadcastIntent}}) : type=2 triggerAtTime=9223372036854775806 win=3600000 tElapsed=9223372036854775806 maxElapsed=-9223372036851175810 interval=0 flags=0x0
+03-28 01:20:18.647  3258 20019 V AlarmManager: remove(operation) changed bounds; rebatching
+03-28 01:20:18.647  3258 20019 D AlarmManagerService: set alarm to kernel: 89336.985000000, type=2 
+03-28 01:20:18.651  6798  6823 D LocationService: 2026-03-28T04:20:18.651Z: Location saved to repository (uuid=fa6d9c52-d977-4cd5-8720-db1316402bf0)
+03-28 01:20:18.948  3007  3626 E LIBGPS  : send agps cmd to server
+03-28 01:20:18.949  3007  3626 E LIBGPS  : begin save flash data,subtype is 31,lenth is 88
+03-28 01:20:18.950  3258  3520 V GnssLocationProvider: Converting IPv4 address byte array (net_order) 0
+03-28 01:20:18.950  3258  3520 D GnssLocationProvider: AGPS IP is v4: 0.0.0.0
+03-28 01:20:18.950  3258  3520 V GnssLocationProvider: Passing AGPS IP addr: size 4
+03-28 01:20:18.950  3258  3520 I GnssLocationProvider: WakeLock acquired by sendMessage(RELEASE_SUPL_CONNECTION, 2, null)
+03-28 01:20:18.961  3007  3627 I GnssHAL_AGnssInterfaceExt: updateWakelock: GNSS HAL Wakelock released
+03-28 01:20:19.616  3469  3650 I sysui_multi_action: [757,1093,758,4,793,2205,1094,604520449,1095,5]
+03-28 01:20:19.617  3258  3276 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@a301753)
+03-28 01:20:19.619  3258  3276 I GnssLocationProvider: WakeLock released by handleMessage(RELEASE_SUPL_CONNECTION, 2, null)
+03-28 01:20:19.721  3782  3823 I CPVoiceAgent: select: retrun 0
+03-28 01:20:20.417  6200  6207 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:20.419 11536 11543 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:21.115  2936  3131 D ENGPC   : parse_event: event { 'change', '/devices/platform/battery/power_supply/battery', 'power_supply', '' }
+03-28 01:20:21.115  3006  3071 I ThermalChargeDetect: charge status: Full
+03-28 01:20:21.119  3258  3258 D BroadcastQueue: Add broadcast <BroadcastRecord{fac998e u-1 android.intent.action.BATTERY_CHANGED}> into [parallel | background], pending size 0
+03-28 01:20:21.121  3258  3651 D PowerController: updatePowerSaveMode(), set to MODECONFIG_USER
+03-28 01:20:21.121  3258  3651 D PowerController: isInVideoCallOrNormalCall:mModeConfigIndex:2,preModeConfigIndex = 2
+03-28 01:20:21.121  3258  3651 D PowerController: updatePowerSaveModeInternal(), no change, return true
+03-28 01:20:21.122  3431  3431 D DctEx   : [0]onReceive() action=android.intent.action.BATTERY_CHANGED
+03-28 01:20:21.123  3469  3469 D BatteryMeterDrawable: onBatteryLevelChanged level=100,pluggedIn=true,charging=true
+03-28 01:20:21.124  3258  3277 D BroadcastQueue: Done with parallel broadcast [background] [BroadcastRecord{fac998e u-1 android.intent.action.BATTERY_CHANGED}]
+03-28 01:20:21.126  3469  3469 D PowerUI : buckets   .....0 .. 0 .. 0
+03-28 01:20:21.124  3469  3469 I chatty  : uid=10030(com.android.systemui) identical 1 line
+03-28 01:20:21.126  3469  3469 D BatteryMeterDrawable: onBatteryLevelChanged level=100,pluggedIn=true,charging=true
+03-28 01:20:21.126  6798  6798 D BatteryObserver: 2026-03-28T04:20:21.125Z: [id=1] ACTION_BATTERY_CHANGED received; extras=technology,icon-small,max_charging_voltage,health,max_charging_current,status,plugged,present,seq,charge_counter,level,scale,temperature,voltage,invalid_charger
+03-28 01:20:21.126  3469  3469 D PowerUI : level          100 --> 100
+03-28 01:20:21.126  3469  3469 D PowerUI : status         5 --> 5
+03-28 01:20:21.126  3469  3469 D PowerUI : plugType       2 --> 2
+03-28 01:20:21.126  3469  3469 D PowerUI : invalidCharger 0 --> 0
+03-28 01:20:21.126  3469  3469 D PowerUI : bucket         1 --> 1
+03-28 01:20:21.126  3469  3469 D PowerUI : plugged        true --> true
+03-28 01:20:21.126  3469  3469 D PowerUI : health         2 --> 2
+03-28 01:20:21.128  3469  3469 D BatteryMeterDrawable: onReceive action=android.intent.action.BATTERY_CHANGED
+03-28 01:20:21.129  3469  3469 D BatteryMeterDrawable: onReceive level=100,plugType=2,status=5
+03-28 01:20:21.129  3469  3469 D BatteryMeterDrawable: Screen is off, stop charging anim
+03-28 01:20:21.129  3469  3469 D BatteryMeterDrawable: onReceive action=android.intent.action.BATTERY_CHANGED
+03-28 01:20:21.129  3469  3469 D BatteryMeterDrawable: onReceive level=100,plugType=2,status=5
+03-28 01:20:21.129  3469  3469 D BatteryMeterDrawable: Screen is off, stop charging anim
+03-28 01:20:21.129  6798  6798 D BatteryObserver: 2026-03-28T04:20:21.128Z: State: charging=true/USB, level=100%, temp=33.7C
+03-28 01:20:21.129  3469  3469 D BatteryMeterDrawable: onReceive action=android.intent.action.BATTERY_CHANGED
+03-28 01:20:21.129  3469  3469 D BatteryMeterDrawable: onReceive level=100,plugType=2,status=5
+03-28 01:20:21.130  3469  3469 D BatteryMeterDrawable: Screen is off, stop charging anim
+03-28 01:20:21.223  3782  3823 I CPVoiceAgent: select: retrun 0
+03-28 01:20:22.153  3469  3650 I sysui_multi_action: [757,1093,758,4,793,2537,1094,604520449,1095,5]
+03-28 01:20:22.424  6200  6207 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:22.424 11536 11543 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:22.725  3782  3823 I CPVoiceAgent: select: retrun 0
+03-28 01:20:23.580  6115  6115 I auditd  : type=1400 audit(0.0:14609): avc: denied { read } for comm="rtcross.gpstest" name="vmstat" dev="proc" ino=4026532028 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc:s0 tclass=file permissive=1
+03-28 01:20:23.580  6115  6115 I rtcross.gpstest: type=1400 audit(0.0:14609): avc: denied { read } for name="vmstat" dev="proc" ino=4026532028 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc:s0 tclass=file permissive=1
+03-28 01:20:23.631  3016  3198 D WCND    : is_cp2_alive_ok: open polling interface: /proc/mdbg/loopcheck, fd = 13
+03-28 01:20:23.732  3016  3198 D WCND    : is_cp2_alive_ok: loop: /proc/mdbg/loopcheck is OK
+03-28 01:20:24.226  3782  3823 I CPVoiceAgent: select: retrun 0
+03-28 01:20:24.434  6200  6207 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:24.434 11536 11543 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:25.729  3782  3823 I CPVoiceAgent: select: retrun 0
+03-28 01:20:26.442 11536 11543 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:26.442  6200  6207 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:27.231  3782  3823 I CPVoiceAgent: select: retrun 0
+03-28 01:20:28.449 11536 11543 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:28.450  6200  6207 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:28.733  3782  3823 I CPVoiceAgent: select: retrun 0
+03-28 01:20:28.737  3016  3198 D WCND    : is_cp2_alive_ok: open polling interface: /proc/mdbg/loopcheck, fd = 13
+03-28 01:20:28.837  3016  3198 D WCND    : is_cp2_alive_ok: loop: /proc/mdbg/loopcheck is OK
+03-28 01:20:30.234  3782  3823 I CPVoiceAgent: select: retrun 0
+03-28 01:20:30.458 11536 11543 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:30.458  6200  6207 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:31.397  3258  3376 D AlarmManager: waitForAlarm result:4currentTime=1774671631397, elapsedRealtime=89336985
+03-28 01:20:31.397  3258  3376 D AlarmManager: triggerList.size = 1, hasWakeup = true
+03-28 01:20:31.397  3258  3376 D AlarmManagerService: set alarm to kernel: 89354.663000000, type=2 
+03-28 01:20:31.397  3258  3376 V AlarmManager: sending alarm Alarm{51ad5af type 0 when 1774671631397 com.urbetrack.sweeptracker}
+03-28 01:20:31.402  6798  6798 D LocationService: 2026-03-28T04:20:31.401Z: onStartCommand: Received ACTION_START_WINDOW alarm
+03-28 01:20:31.405  6798  6798 D LocationService: 2026-03-28T04:20:31.404Z: getLocationInterval: source=USB, plugged=false, interval=15s
+03-28 01:20:31.408  6798  6798 D LocationService: 2026-03-28T04:20:31.407Z: safeStartNewWindow depth=1 interval=15000ms
+03-28 01:20:31.413  6798  6798 D LocationService: 2026-03-28T04:20:31.413Z: Attempting to start location window, interval=15000ms, mutex=false
+03-28 01:20:31.416  6798  6798 D LocationService: 2026-03-28T04:20:31.415Z: Location window starting, interval=15000ms, mutex=true
+03-28 01:20:31.418  6798  6798 D LocationService: 2026-03-28T04:20:31.418Z: Location window setup complete, releasing mutex, interval=15000ms, mutex=true
+03-28 01:20:31.423  6798  6798 D LocationService: 2026-03-28T04:20:31.423Z: buildLocationRequest: batterySaving=false, priority=100, interval=15000ms, minUpdate=2000ms, window=15000ms
+03-28 01:20:31.428  6798  6798 D LocationService: 2026-03-28T04:20:31.427Z: GPS high-accuracy session started
+03-28 01:20:31.430  6798  6798 D LocationService: 2026-03-28T04:20:31.429Z: Window#14 started: method=GPS, interval=15000ms, priority=100, callback=195043692
+03-28 01:20:31.435  3258 20019 D BroadcastQueue: Add broadcast <BroadcastRecord{de27dbc u0 android.location.HIGH_POWER_REQUEST_CHANGE}> into [parallel | background], pending size 0
+03-28 01:20:31.435  3258  3277 D BroadcastQueue: Done with parallel broadcast [background] [BroadcastRecord{de27dbc u0 android.location.HIGH_POWER_REQUEST_CHANGE}]
+03-28 01:20:31.440  3258  3654 D PowerController.RecogA: handleMessage(MSG_REPORT_EVENT)
+03-28 01:20:31.440  3258  9830 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@1491dcb)
+03-28 01:20:31.441  3007  3007 E LIBGPS  : agps data will not send,for gps is close
+03-28 01:20:31.441  3007  3007 E LIBGPS  : xml mode is msb
+03-28 01:20:31.441  3007  3007 E LIBGPS  : note:set mode from framwork is not equel xml set!
+03-28 01:20:31.441  3007  3007 D LCS_MGT : [MGT_execute]: recv instr(0xe108) of domain 'UP(0x01)' sid(200) from GNSS!
+03-28 01:20:31.441  3007  3007 D LCS_MGT : [LCSMGT_getDomain]: LCS supported domain is 'UP|CP(0x03)'
+03-28 01:20:31.441  3007  3007 D LCS_MGT : [MGT_execute]: executing instr 'LCS_INSTR_SET_POS_METHOD(0xe108)' of domain 'UP(0x01)'
+03-28 01:20:31.441  3007  3007 D LCS_MGT : [UPINSTR_execSetPosMethod]: Entry point
+03-28 01:20:31.441  3007  3007 D LCS_MGT : [LCSMGT_sendAsyncEvent]: send event(0xa109), body maxsize(4)
+03-28 01:20:31.441  3007  3007 D LCS_MGT : LCSMGT Version:AGNSS_W24.33.2_V18.5.3, android:V8.1.0(64bit), gcc:V4.2.1 Compatible Android Clang 5.0.300080 , build time:Aug 13 2024, 16:40:36
+03-28 01:20:31.441  3007  3007 D LCS_MGT : [INSTR_encapSetPosMethod]: Entry point
+03-28 01:20:31.442  3007  3590 D LCS_MGT : [LCSMGT_recvMBoxEvents]: recv event(0xa109)
+03-28 01:20:31.442  3007  3590 D LCS_MGT : [UPEVT_recvSetPosMethod]: Entry point
+03-28 01:20:31.442  3007  3590 D LCS_UP  : enter supl_RXN_setPosMode, setted posMode=1(2:MSA, 1:MSB, 0: standlone GPS)
+03-28 01:20:31.442  3007  3638 D LCS_UP  : enter supl_handleNormalMsg
+03-28 01:20:31.442  3007  3638 D LCS_UP  : [supl_handleNormalMsg]: receive mbox msg(0x1001)
+03-28 01:20:31.442  3007  3638 D LCS_UP  : supl_SessionRunning result 0 index 6
+03-28 01:20:31.442  3007  3638 D LCS_UP  : enter supl_setPosMode, isSessionRunning=0, pMsg->aPosMethod=1
+03-28 01:20:31.442  3007  3638 D LCS_UP  : supl_setPosMode:set postionMode = MSB
+03-28 01:20:31.442  3007  3007 E LIBGPS  : LIBGPS_W20.40.2_V1.6.1 Version:64bit, gcc:V4.2.1 Compatible Android Clang 5.0.300080 , build time:Jan 20 2026, 23:16:45
+03-28 01:20:31.442  3007  3638 D LCS_UP  : enter supl_handleNetworkOrSETCapChange
+03-28 01:20:31.442  3007  3638 D LCS_UP  : enter supl_handleTlsRpt
+03-28 01:20:31.445  3007  3627 I GnssHAL_AGnssInterfaceExt: updateWakelock: GNSS HAL Wakelock acquired due to gps: 1, fused: 0
+03-28 01:20:31.445  3007  3627 E LIBGPS  : size is 1343
+03-28 01:20:31.447  3258  3276 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@1491dcb)
+03-28 01:20:31.448  3258  4001 V AlarmManager: set(PendingIntent{ec9cba7: PendingIntentRecord{222c854 com.google.android.gms broadcastIntent}}) : type=2 triggerAtTime=89367027 win=0 tElapsed=89367027 maxElapsed=89367027 interval=0 flags=0x5
+03-28 01:20:31.453  3258  4001 D BroadcastQueue: Add broadcast <BroadcastRecord{6d113fd u0 android.location.HIGH_POWER_REQUEST_CHANGE}> into [parallel | background], pending size 0
+03-28 01:20:31.454  3258  3277 D BroadcastQueue: Done with parallel broadcast [background] [BroadcastRecord{6d113fd u0 android.location.HIGH_POWER_REQUEST_CHANGE}]
+03-28 01:20:31.468  3258  3654 D PowerController.RecogA: handleMessage(MSG_REPORT_EVENT)
+03-28 01:20:31.469  3258  4001 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@dcac8f2)
+03-28 01:20:31.469  3258  3276 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@dcac8f2)
+03-28 01:20:31.471  3258  3654 D PowerController.RecogA: handleMessage(MSG_REPORT_EVENT)
+03-28 01:20:31.479  3258  9830 V AlarmManager: set(PendingIntent{c38823e: PendingIntentRecord{5b2889f com.google.android.gms broadcastIntent}}) : type=2 triggerAtTime=89337615 win=0 tElapsed=89342068 maxElapsed=89342068 interval=0 flags=0x5
+03-28 01:20:31.480  3258  9830 D AlarmManagerService: set alarm to kernel: 89342.068000000, type=2 
+03-28 01:20:31.480  9831  9903 I ActivityScheduler: nextTriggerTime: 89338615, in 1546ms, detectorType: 39, FULL_TYPE alarmWindowMillis: 10000
+03-28 01:20:31.481  3258  9830 V AlarmManager: set(PendingIntent{c9ecdec: PendingIntentRecord{960be41 com.google.android.gms broadcastIntent}}) : type=2 triggerAtTime=89338615 win=10000 tElapsed=89342069 maxElapsed=89352069 interval=0 flags=0x0
+03-28 01:20:31.481  3258  9830 V AlarmManager: remove(operation) changed bounds; rebatching
+03-28 01:20:31.482  3258  9830 D AlarmManagerService: set alarm to kernel: 89337.615000000, type=2 
+03-28 01:20:31.493  3258  9830 D AlarmManagerService: set alarm to kernel: 89338.615000000, type=2 
+03-28 01:20:31.494  9831  9903 I ActivityScheduler: nextTriggerTime: 89338079, in 996ms, detectorType: 39, FULL_TYPE alarmWindowMillis: 10000
+03-28 01:20:31.492  3258  9830 V AlarmManager: remove(operation) changed bounds; rebatching
+03-28 01:20:31.495  3258  9830 V AlarmManager: set(PendingIntent{2e3c5b5: PendingIntentRecord{960be41 com.google.android.gms broadcastIntent}}) : type=2 triggerAtTime=89338079 win=10000 tElapsed=89342084 maxElapsed=89352084 interval=0 flags=0x0
+03-28 01:20:31.496  3258  9830 V AlarmManager: remove(operation) changed bounds; rebatching
+03-28 01:20:31.496  3258  9830 D AlarmManagerService: set alarm to kernel: 89354.663000000, type=2 
+03-28 01:20:31.497  3258  9830 D AlarmManagerService: set alarm to kernel: 89342.084000000, type=2 
+03-28 01:20:31.499  3258  9830 I WifiService: getWifiEnabledState uid=10014
+03-28 01:20:31.500  9831  9903 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+03-28 01:20:31.501  3258  9830 D AlarmManagerService: set alarm to kernel: 89354.663000000, type=2 
+03-28 01:20:31.506  3431  3741 D RILJ    : [8714]> RIL_REQUEST_GET_CELL_INFO_LIST [SUB0]
+03-28 01:20:31.506  3306  3306 D RILC    : getCellInfoList: serial 5066
+03-28 01:20:31.507  3306  3539 D RIL     : onRequest: GET_CELL_INFO_LIST radioState=4
+03-28 01:20:31.507  3306  3539 D REQ_THDS: get Channel1
+03-28 01:20:31.507  2924  3368 D sensor  : poll__batch handle=0 sampling_period_ns=20ms, max_report_latency_ns=0ms
+03-28 01:20:31.508  2924  3368 D sensor  : activate handle=0; drv=0
+03-28 01:20:31.508  2924  3368 D sensor  : AccSensor::mEnabled=0x1,err=0x0
+03-28 01:20:31.508  2924  3368 D sensor  : AccSensor: set EVIOCSCLOCKID = 7
+03-28 01:20:31.508  2924  3368 D sensor  : AccSensor: mEnabled = 1
+03-28 01:20:31.508  2924  2924 E sensor  : reading from wake pipe
+03-28 01:20:31.509  3306  3539 D RILC    : RequestComplete, RIL_SOCKET_1
+03-28 01:20:31.509  3306  3539 E RILC    : Calling responseFunction() for token 5066
+03-28 01:20:31.509  3306  3539 D RILC    : getCellInfoListResponse: serial 5066
+03-28 01:20:31.509  3306  3539 D REQ_THDS: put Channel1
+03-28 01:20:31.509  3306  3539 I REQ_THDS: -->CommandThread [3539] free one command
+03-28 01:20:31.511  3431  3525 D RILJ    : [8714]< RIL_REQUEST_GET_CELL_INFO_LIST [CellInfoLte:{mRegistered=YES mTimeStampType=oem_ril mTimeStamp=49145598778770ns CellIdentityLte:{ mMcc=722 mMnc=34 mCi=213908387 mPci=502 mTac=1866 mEarfcn=2225} CellSignalStrengthLte: ss=46 rsrp=-94 rsrq=-8 rssnr=2147483647 cqi=2147483647 ta=2147483647}, CellInfoLte:{mRegistered=NO mTimeStampType=oem_ril mTimeStamp=2147483647ns CellIdentityLte:{ mMcc=2147483647 mMnc=2147483647 mCi=2147483647 mPci=502 mTac=2147483647 mEarfcn=2225} CellSignalStrengthLte: ss=45 rsrp=-95 rsrq=-10 rssnr=2147483647 cqi=2147483647 ta=2147483647}, CellInfoLte:{mRegistered=NO mTimeStampType=oem_ril mTimeStamp=2147483647ns CellIdentityLte:{ mMcc=2147483647 mMnc=2147483647 mCi=2147483647 mPci=321 mTac=2147483647 mEarfcn=2225} CellSignalStrengthLte: ss=39 rsrp=-101 rsrq=-10 rssnr=2147483647 cqi=2147483647 ta=2147483647}, CellInfoLte:{mRegistered=NO mTimeStampType=oem_ril mTimeStamp=2147483647ns CellIdentityLte:{ mMcc=2147483647 mMnc=2147483647 mCi=2147483647 mPci=440 mTac=2147483647 mEarfcn=2225} CellSignalStrengthLte: ss=39 rsrp=-101 rsrq=-16 rssnr=2147483647 cqi=2147483647 ta=2147483647}] [SUB0]
+03-28 01:20:31.511  3553  3553 D wpa_supplicant: nl80211: Ignored event (cmd=33) for foreign interface (ifindex 14 wdev 0x0)
+03-28 01:20:31.511  3553  3553 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+03-28 01:20:31.512  3553  3553 D wpa_supplicant: wlan0: nl80211: Scan trigger
+03-28 01:20:31.512  3553  3553 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+03-28 01:20:31.512  3553  3553 D wpa_supplicant: wlan0: External program started a scan
+03-28 01:20:31.501  3258  9830 V AlarmManager: remove(operation) changed bounds; rebatching
+03-28 01:20:31.512  3258  3403 V AlarmManager: set(null) : type=2 triggerAtTime=89352100 win=11250 tElapsed=89352100 maxElapsed=89363350 interval=0 flags=0x8
+03-28 01:20:31.512  3258  3403 D AlarmManagerService: set alarm to kernel: 89352.100000000, type=2 
+03-28 01:20:31.667  3007  3626 E LIBGPS  : getresponse subtype is 1
+03-28 01:20:31.667  3007  3626 E LIBGPS  : size is 1343
+03-28 01:20:31.667  3007  3626 E LIBGPS  : get val is GPS_GLO GNSS_17A_W19.37.4 GE2-AA
+03-28 01:20:31.668  3007  3626 E LIBGPS  : size is 1343
+03-28 01:20:31.668  3007  3626 E LIBGPS  : size is 1343
+03-28 01:20:31.668  3007  3627 E LIBGPS  : GNSS STATE :GE2 CP IDLED, should not set: GE2 CP IDLED
+03-28 01:20:31.669  3007  3627 E LIBGPS  : size is 1343
+03-28 01:20:31.679  3007  3627 E LIBGPS  : ephemeris is too old
+03-28 01:20:31.680  7828  7828 I auditd  : type=1400 audit(0.0:14612): avc: denied { open } for comm="getprop" path="/dev/__properties__/u:object_r:ylog_lite_prop:s0" dev="tmpfs" ino=9728 scontext=u:r:su:s0 tcontext=u:object_r:ylog_lite_prop:s0 tclass=file permissive=1
+03-28 01:20:31.679  3007  3627 I chatty  : uid=1000(system) libgps_daemon identical 3 lines
+03-28 01:20:31.679  3007  3627 E LIBGPS  : ephemeris is too old
+03-28 01:20:31.680  7828  7828 I getprop : type=1400 audit(0.0:14612): avc: denied { open } for path="/dev/__properties__/u:object_r:ylog_lite_prop:s0" dev="tmpfs" ino=9728 scontext=u:r:su:s0 tcontext=u:object_r:ylog_lite_prop:s0 tclass=file permissive=1
+03-28 01:20:31.680  7828  7828 I auditd  : type=1400 audit(0.0:14613): avc: denied { getattr } for comm="getprop" path="/dev/__properties__/u:object_r:ylog_lite_prop:s0" dev="tmpfs" ino=9728 scontext=u:r:su:s0 tcontext=u:object_r:ylog_lite_prop:s0 tclass=file permissive=1
+03-28 01:20:31.680  7828  7828 I getprop : type=1400 audit(0.0:14613): avc: denied { getattr } for path="/dev/__properties__/u:object_r:ylog_lite_prop:s0" dev="tmpfs" ino=9728 scontext=u:r:su:s0 tcontext=u:object_r:ylog_lite_prop:s0 tclass=file permissive=1
+03-28 01:20:31.736  3782  3823 I CPVoiceAgent: select: retrun 0
+03-28 01:20:31.896  3007  3627 E LIBGPS  : size is 1343
+03-28 01:20:31.897  3007  3627 I chatty  : uid=1000(system) libgps_daemon identical 3 lines
+03-28 01:20:31.898  3007  3627 E LIBGPS  : size is 1343
+03-28 01:20:31.936  3007  3626 E LIBGPS  : agps aiding data received
+03-28 01:20:31.936  3007  3626 E LIBGPS  : assist request flag invalid
+03-28 01:20:31.936  3007  3626 E LIBGPS  : send agps cmd to server
+03-28 01:20:32.074  2924  3368 D sensor  : activate handle=0; drv=0
+03-28 01:20:32.074  2924  3368 D sensor  : AccSensor::mEnabled=0x0,err=0x0
+03-28 01:20:32.074  2924  3368 D sensor  : AccSensor: set EVIOCSCLOCKID = 7
+03-28 01:20:32.074  2924  3368 D sensor  : AccSensor: mEnabled = 0
+03-28 01:20:32.088  3553  3553 D wpa_supplicant: nl80211: Ignored event (cmd=34) for foreign interface (ifindex 14 wdev 0x0)
+03-28 01:20:32.088  3553  3553 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+03-28 01:20:32.088  3553  3553 D wpa_supplicant: wlan0: nl80211: New scan results available
+03-28 01:20:32.088  3553  3553 D wpa_supplicant: nl80211: Scan probed for SSID ''
+03-28 01:20:32.088  3553  3553 D wpa_supplicant: nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472
+03-28 01:20:32.088  3553  3553 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+03-28 01:20:32.088  3553  3553 D wpa_supplicant: nl80211: Received scan results (10 BSSes)
+03-28 01:20:32.088  3553  3553 D wpa_supplicant: nl80211: Scan results indicate BSS status with b8:d5:26:d6:ed:b1 as associated
+03-28 01:20:32.088  3553  3553 D wpa_supplicant: wlan0: BSS: Start scan result update 1887
+03-28 01:20:32.089  3553  3553 D wpa_supplicant: wlan0: BSS: Add new id 2355 BSSID c8:3d:d4:22:bc:10 SSID 'Guadalupe 2.4GHz' freq 2437
+03-28 01:20:32.089  3553  3553 D wpa_supplicant: wlan0: BSS: Add new id 2356 BSSID 90:9f:22:bc:a9:e1 SSID 'Doky' freq 2417
+03-28 01:20:32.089  3553  3553 D wpa_supplicant: wlan0: BSS: Add new id 2357 BSSID e6:8b:42:26:4a:0a SSID '' freq 2462
+03-28 01:20:32.089  3553  3553 D wpa_supplicant: wlan0: BSS: Remove id 2353 BSSID f0:87:56:ce:1e:91 SSID 'Victoria' due to no match in scan
+03-28 01:20:32.089  3553  3553 D wpa_supplicant: BSS: last_scan_res_used=10/32
+03-28 01:20:32.089  3553  3553 D wpa_supplicant: wlan0: New scan results available (own=0 ext=1)
+03-28 01:20:32.089  3553  3553 D wpa_supplicant: wlan0: Do not use results from externally requested scan operation for network selection
+03-28 01:20:32.089  3553  3553 D wpa_supplicant: p2p-dev-wlan0: Updating scan results from sibling
+03-28 01:20:32.089  3553  3553 D wpa_supplicant: nl80211: Received scan results (10 BSSes)
+03-28 01:20:32.090  3553  3553 D wpa_supplicant: p2p-dev-wlan0: BSS: Start scan result update 1887
+03-28 01:20:32.090  3553  3553 D wpa_supplicant: p2p-dev-wlan0: BSS: Add new id 2431 BSSID c8:3d:d4:22:bc:10 SSID 'Guadalupe 2.4GHz' freq 2437
+03-28 01:20:32.090  3553  3553 D wpa_supplicant: p2p-dev-wlan0: BSS: Add new id 2432 BSSID 90:9f:22:bc:a9:e1 SSID 'Doky' freq 2417
+03-28 01:20:32.090  3553  3553 D wpa_supplicant: p2p-dev-wlan0: BSS: Add new id 2433 BSSID e6:8b:42:26:4a:0a SSID '' freq 2462
+03-28 01:20:32.090  3553  3553 D wpa_supplicant: p2p-dev-wlan0: BSS: Remove id 2429 BSSID f0:87:56:ce:1e:91 SSID 'Victoria' due to no match in scan
+03-28 01:20:32.090  3553  3553 D wpa_supplicant: BSS: last_scan_res_used=10/32
+03-28 01:20:32.090  3553  3553 D wpa_supplicant: p2p-dev-wlan0: New scan results available (own=0 ext=1)
+03-28 01:20:32.090  3553  3553 D wpa_supplicant: p2p-dev-wlan0: Do not use results from externally requested scan operation for network selection
+03-28 01:20:32.091  3258  9830 D WificondControl: Scan result ready event
+03-28 01:20:32.091  3258 20019 I am_create_service: [0,3572810,.PersistentIntentOperationService,10014,9831]
+03-28 01:20:32.092  3258  3403 V AlarmManager: remove(operation) changed bounds; rebatching
+03-28 01:20:32.093  3258  3403 D AlarmManagerService: set alarm to kernel: 89354.663000000, type=2 
+03-28 01:20:32.094  9831  9903 I ActivityScheduler: nextTriggerTime: 89517682, in 180000ms, detectorType: 39, FULL_TYPE alarmWindowMillis: 10000
+03-28 01:20:32.094  3258 20019 V AlarmManager: set(PendingIntent{ec10fbb: PendingIntentRecord{960be41 com.google.android.gms broadcastIntent}}) : type=2 triggerAtTime=89517682 win=10000 tElapsed=89517682 maxElapsed=89527682 interval=0 flags=0x0
+03-28 01:20:32.103  3258 20019 V AlarmManager: set(PendingIntent{a0dcd8: PendingIntentRecord{ed80831 com.google.android.gms startService}}) : type=3 triggerAtTime=315449337691 win=236520000000 tElapsed=315449337691 maxElapsed=551969337691 interval=0 flags=0x0
+03-28 01:20:32.108  3258  3397 D PasspointManager: Match not found for Zyxel_E391
+03-28 01:20:32.116  9831  7040 I FrewleTileCacheManagerV: (REDACTED) Fetched %d AP models from cache
+03-28 01:20:32.138  6798  6798 D LocationService: 2026-03-28T04:20:32.137Z: getCurrentLocation#14: Location[fused -37.118305,-56.856500 hAcc=14 et=+1d0h48m57s134ms alt=24.80000114440918 vAcc=2 sAcc=??? bAcc=??? {Bundle[mParcelledData.dataSize=848]}]
+03-28 01:20:32.143  3258  9830 V AlarmManager: set(PendingIntent{df3f66d: PendingIntentRecord{b4352a2 com.google.android.gms broadcastIntent}}) : type=2 triggerAtTime=89342643 win=0 tElapsed=89342731 maxElapsed=89342731 interval=0 flags=0x5
+03-28 01:20:32.143  3258  9830 D AlarmManagerService: set alarm to kernel: 89342.731000000, type=2 
+03-28 01:20:32.143  6798  6798 D LocationService: 2026-03-28T04:20:32.143Z: Window#14 threshold met (goodCount=2, mode=GPS), finishing in 1500ms
+03-28 01:20:32.146  9831  9903 I ActivityScheduler: nextTriggerTime: 89517682, in 179948ms, detectorType: 39, FULL_TYPE alarmWindowMillis: 10000
+03-28 01:20:32.146  3258  9830 D BroadcastQueue: Add broadcast <BroadcastRecord{a23bb33 u0 android.location.HIGH_POWER_REQUEST_CHANGE}> into [parallel | background], pending size 0
+03-28 01:20:32.147  3258  3277 D BroadcastQueue: Done with parallel broadcast [background] [BroadcastRecord{a23bb33 u0 android.location.HIGH_POWER_REQUEST_CHANGE}]
+03-28 01:20:32.149  3258  9830 V AlarmManager: remove(operation) changed bounds; rebatching
+03-28 01:20:32.150  3258  9830 D AlarmManagerService: set alarm to kernel: 89342.643000000, type=2 
+03-28 01:20:32.154  3258  3654 D PowerController.RecogA: handleMessage(MSG_REPORT_EVENT)
+03-28 01:20:32.155  3258 20019 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@b26ef0)
+03-28 01:20:32.156  3258  3276 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@b26ef0)
+03-28 01:20:32.155  3258  3654 D PowerController.RecogA: handleMessage(MSG_REPORT_EVENT)
+03-28 01:20:32.173  3258  9830 V AlarmManager: remove(operation) changed bounds; rebatching
+03-28 01:20:32.173  3258  9830 D AlarmManagerService: set alarm to kernel: 89354.663000000, type=2 
+03-28 01:20:32.178  3258  9830 V AlarmManager: set(PendingIntent{e78a1c: PendingIntentRecord{c528625 com.google.android.gms broadcastIntent}}) : type=2 triggerAtTime=89352643 win=0 tElapsed=89352643 maxElapsed=89352643 interval=0 flags=0x5
+03-28 01:20:32.178  3258  9830 D AlarmManagerService: set alarm to kernel: 89352.643000000, type=2 
+03-28 01:20:32.179  9831  9903 I ActivityScheduler: nextTriggerTime: 89517682, in 179914ms, detectorType: 39, FULL_TYPE alarmWindowMillis: 10000
+03-28 01:20:32.439  3469  3650 I sysui_multi_action: [757,1093,758,4,793,10285,1094,604520961,1095,6]
+03-28 01:20:32.464  6200  6207 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:32.465 11536 11543 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:32.670  3258  3258 D BroadcastQueue: Add broadcast <BroadcastRecord{9a093fa u-1 android.intent.action.BATTERY_CHANGED}> into [parallel | background], pending size 0
+03-28 01:20:32.673  3431  3431 D DctEx   : [0]onReceive() action=android.intent.action.BATTERY_CHANGED
+03-28 01:20:32.673  3258  3651 D PowerController: updatePowerSaveMode(), set to MODECONFIG_USER
+03-28 01:20:32.674  3258  3651 D PowerController: isInVideoCallOrNormalCall:mModeConfigIndex:2,preModeConfigIndex = 2
+03-28 01:20:32.674  3258  3651 D PowerController: updatePowerSaveModeInternal(), no change, return true
+03-28 01:20:32.676  3258  3277 D BroadcastQueue: Done with parallel broadcast [background] [BroadcastRecord{9a093fa u-1 android.intent.action.BATTERY_CHANGED}]
+03-28 01:20:32.676  3469  3469 D BatteryMeterDrawable: onBatteryLevelChanged level=100,pluggedIn=true,charging=true
+03-28 01:20:32.679  3469  3469 D PowerUI : buckets   .....0 .. 0 .. 0
+03-28 01:20:32.679  3469  3469 D PowerUI : level          100 --> 100
+03-28 01:20:32.679  3469  3469 D PowerUI : status         5 --> 5
+03-28 01:20:32.679  3469  3469 D PowerUI : plugType       2 --> 2
+03-28 01:20:32.679  3469  3469 D PowerUI : invalidCharger 0 --> 0
+03-28 01:20:32.679  3469  3469 D PowerUI : bucket         1 --> 1
+03-28 01:20:32.679  3469  3469 D PowerUI : plugged        true --> true
+03-28 01:20:32.679  3469  3469 D PowerUI : health         2 --> 2
+03-28 01:20:32.677  3469  3469 I chatty  : uid=10030(com.android.systemui) identical 1 line
+03-28 01:20:32.678  3469  3469 D BatteryMeterDrawable: onBatteryLevelChanged level=100,pluggedIn=true,charging=true
+03-28 01:20:32.680  6798  6798 D BatteryObserver: 2026-03-28T04:20:32.679Z: [id=1] ACTION_BATTERY_CHANGED received; extras=technology,icon-small,max_charging_voltage,health,max_charging_current,status,plugged,present,seq,charge_counter,level,scale,temperature,voltage,invalid_charger
+03-28 01:20:32.682  3469  3469 D BatteryMeterDrawable: onReceive action=android.intent.action.BATTERY_CHANGED
+03-28 01:20:32.682  3469  3469 D BatteryMeterDrawable: onReceive level=100,plugType=2,status=5
+03-28 01:20:32.682  3469  3469 D BatteryMeterDrawable: Screen is off, stop charging anim
+03-28 01:20:32.682  3469  3469 D BatteryMeterDrawable: onReceive action=android.intent.action.BATTERY_CHANGED
+03-28 01:20:32.682  3469  3469 D BatteryMeterDrawable: onReceive level=100,plugType=2,status=5
+03-28 01:20:32.682  3469  3469 D BatteryMeterDrawable: Screen is off, stop charging anim
+03-28 01:20:32.682  3469  3469 D BatteryMeterDrawable: onReceive action=android.intent.action.BATTERY_CHANGED
+03-28 01:20:32.683  3469  3469 D BatteryMeterDrawable: onReceive level=100,plugType=2,status=5
+03-28 01:20:32.683  3469  3469 D BatteryMeterDrawable: Screen is off, stop charging anim
+03-28 01:20:32.683  6798  6798 D BatteryObserver: 2026-03-28T04:20:32.682Z: State: charging=true/USB, level=100%, temp=33.7C
+03-28 01:20:32.968  3007  3626 E LIBGPS  : begin save flash data,subtype is 31,lenth is 88
+03-28 01:20:33.238  3782  3823 I CPVoiceAgent: select: retrun 0
+03-28 01:20:33.648  6798  6798 D LocationService: 2026-03-28T04:20:33.647Z: Window#14 finish signal received or interval reached
+03-28 01:20:33.651  6798  6798 D LocationService: 2026-03-28T04:20:33.650Z: Window#14 early processing starting
+03-28 01:20:33.656  6798  6798 D LocationService: 2026-03-28T04:20:33.654Z: GPS high-accuracy session stopped, reason=early-finish
+03-28 01:20:33.659  3258  9830 D BroadcastQueue: Add broadcast <BroadcastRecord{3d15dab u0 android.location.HIGH_POWER_REQUEST_CHANGE}> into [parallel | background], pending size 0
+03-28 01:20:33.659  6798  6798 D LocationService: 2026-03-28T04:20:33.658Z: Early finish triggered for window#14, removed updates, callbackId=195043692
+03-28 01:20:33.659  3258  3277 D BroadcastQueue: Done with parallel broadcast [background] [BroadcastRecord{3d15dab u0 android.location.HIGH_POWER_REQUEST_CHANGE}]
+03-28 01:20:33.663  6798  6798 D LocationService: 2026-03-28T04:20:33.662Z: Window#14 early summary: count=1, bestAcc=14.42, locations=[age=2s, acc=14.42]
+03-28 01:20:33.666  3258  3269 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@7f12c08)
+03-28 01:20:33.666  6798  6798 D LocationService: 2026-03-28T04:20:33.666Z: getLocationInterval: source=USB, plugged=false, interval=15s
+03-28 01:20:33.667  3007  3007 E LIBGPS  : LIBGPS_W20.40.2_V1.6.1 Version:64bit, gcc:V4.2.1 Compatible Android Clang 5.0.300080 , build time:Jan 20 2026, 23:16:45
+03-28 01:20:33.667  3258  3654 D PowerController.RecogA: handleMessage(MSG_REPORT_EVENT)
+03-28 01:20:33.668  6798  6823 D LocationService: 2026-03-28T04:20:33.667Z: Saving Location: lat=-37.1183054, lon=-56.8565, acc=14.42, battery=100%, charging=true, mode=HIGH_ACCURACY
+03-28 01:20:33.668  3007  3007 E LIBGPS  : size is 1343
+03-28 01:20:33.669  6798  6798 D LocationService: 2026-03-28T04:20:33.668Z: Window#14 will schedule next interval=15000, keepGpsRunning=false, forcedFinish=false
+03-28 01:20:33.670  6798  6798 D LocationService: 2026-03-28T04:20:33.670Z: Updates already removed early for window#14, skipping removal
+03-28 01:20:33.672  6798  6798 D LocationService: 2026-03-28T04:20:33.672Z: Scheduling next window via AlarmManager, cycle interval=15000ms, remaining wait=12746ms
+03-28 01:20:33.676  6798  6798 D LocationService: 2026-03-28T04:20:33.675Z: scheduleNextAlarm: using inexact alarm in 12746ms for USB
+03-28 01:20:33.677  3258 20019 V AlarmManager: set(PendingIntent{34a5fa1: PendingIntentRecord{70d15c5 com.urbetrack.sweeptracker startService}}) : type=0 triggerAtTime=1774671646421 win=9558 tElapsed=89352009 maxElapsed=89361567 interval=0 flags=0x8
+03-28 01:20:33.677  3258 20019 D AlarmManagerService: set alarm to kernel: 89352.009000000, type=2 
+03-28 01:20:33.682  6798  6798 D LocationService: 2026-03-28T04:20:33.681Z: Released WakeLock for window#14
+03-28 01:20:33.697  3258  3269 V AlarmManager: remove(operation) changed bounds; rebatching
+03-28 01:20:33.697  6798  6823 D LocationService: 2026-03-28T04:20:33.697Z: Location saved to repository (uuid=63938f67-4065-4c1e-9b31-1db0b9655a82)
+03-28 01:20:33.698  3258  3269 D AlarmManagerService: set alarm to kernel: 89354.663000000, type=2 
+03-28 01:20:33.699  9831  9903 I ActivityScheduler: nextTriggerTime: 9223372036854775806, in 9223372036765436518ms, detectorType: 32, SLEEP alarmWindowMillis: 3074457345618258602
+03-28 01:20:33.700  3258  3269 W AlarmManager: Window length 3074457345618258602ms suspiciously long; limiting to 1 hour
+03-28 01:20:33.700  3258  3269 V AlarmManager: set(PendingIntent{753f5c6: PendingIntentRecord{960be41 com.google.android.gms broadcastIntent}}) : type=2 triggerAtTime=9223372036854775806 win=3600000 tElapsed=9223372036854775806 maxElapsed=-9223372036851175810 interval=0 flags=0x0
+03-28 01:20:33.700  3258  3269 V AlarmManager: remove(operation) changed bounds; rebatching
+03-28 01:20:33.702  3469  3650 I sysui_multi_action: [757,1093,758,4,793,1264,1094,604520449,1095,5]
+03-28 01:20:33.843  3016  3198 D WCND    : is_cp2_alive_ok: open polling interface: /proc/mdbg/loopcheck, fd = 13
+03-28 01:20:33.943  3016  3198 D WCND    : is_cp2_alive_ok: loop: /proc/mdbg/loopcheck is OK
+03-28 01:20:33.971  3007  3626 E LIBGPS  : send agps cmd to server
+03-28 01:20:33.972  3007  3626 E LIBGPS  : send agps cmd to server
+03-28 01:20:33.973  3007  3626 E LIBGPS  : begin save flash data,subtype is 31,lenth is 88
+03-28 01:20:33.974  3258  3600 V GnssLocationProvider: Converting IPv4 address byte array (net_order) 0
+03-28 01:20:33.974  3258  3600 D GnssLocationProvider: AGPS IP is v4: 0.0.0.0
+03-28 01:20:33.974  3258  3600 V GnssLocationProvider: Passing AGPS IP addr: size 4
+03-28 01:20:33.974  3258  3600 I GnssLocationProvider: WakeLock acquired by sendMessage(RELEASE_SUPL_CONNECTION, 2, null)
+03-28 01:20:33.985  3007  3627 I GnssHAL_AGnssInterfaceExt: updateWakelock: GNSS HAL Wakelock released
+03-28 01:20:34.472 11536 11543 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:34.472  6200  6207 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:34.669  3258  3276 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@7f12c08)
+03-28 01:20:34.670  3258  3276 I GnssLocationProvider: WakeLock released by handleMessage(RELEASE_SUPL_CONNECTION, 2, null)
+03-28 01:20:34.740  3782  3823 I CPVoiceAgent: select: retrun 0
+03-28 01:20:35.343  3306  3335 D RIL     : rxlev[0]=99, rscp[0]=255, rsrp[0]=96
+03-28 01:20:35.343  3306  3335 D RILC    : currentSignalStrengthInd
+03-28 01:20:35.344  3306  3335 I RILC    : RIL_SOCKET_1 UNSOLICITED: UNSOL_SIGNAL_STRENGTH length:56
+03-28 01:20:35.347  3431  3741 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:35.349  3258  9830 I WifiService: getConnectionInfo uid=10087
+03-28 01:20:36.155  2936  3131 D ENGPC   : parse_event: event { 'change', '/devices/platform/battery/power_supply/battery', 'power_supply', '' }
+03-28 01:20:36.155  3006  3071 I ThermalChargeDetect: charge status: Full
+03-28 01:20:36.158  3258  3258 D BroadcastQueue: Add broadcast <BroadcastRecord{c62987 u-1 android.intent.action.BATTERY_CHANGED}> into [parallel | background], pending size 0
+03-28 01:20:35.348  3431  3741 I chatty  : uid=1001(radio) Binder:3431_5 identical 1 line
+03-28 01:20:35.360  3431  3741 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:36.159  3431  3431 D DctEx   : [0]onReceive() action=android.intent.action.BATTERY_CHANGED
+03-28 01:20:36.161  3258  3277 D BroadcastQueue: Done with parallel broadcast [background] [BroadcastRecord{c62987 u-1 android.intent.action.BATTERY_CHANGED}]
+03-28 01:20:36.161  3258  3651 D PowerController: updatePowerSaveMode(), set to MODECONFIG_USER
+03-28 01:20:36.161  3258  3651 D PowerController: isInVideoCallOrNormalCall:mModeConfigIndex:2,preModeConfigIndex = 2
+03-28 01:20:36.161  3258  3651 D PowerController: updatePowerSaveModeInternal(), no change, return true
+03-28 01:20:36.161  3469  3469 D BatteryMeterDrawable: onBatteryLevelChanged level=100,pluggedIn=true,charging=true
+03-28 01:20:36.163  3469  3469 D PowerUI : buckets   .....0 .. 0 .. 0
+03-28 01:20:36.164  3469  3469 D PowerUI : level          100 --> 100
+03-28 01:20:36.164  3469  3469 D PowerUI : status         5 --> 5
+03-28 01:20:36.164  3469  3469 D PowerUI : plugType       2 --> 2
+03-28 01:20:36.164  3469  3469 D PowerUI : invalidCharger 0 --> 0
+03-28 01:20:36.164  3469  3469 D PowerUI : bucket         1 --> 1
+03-28 01:20:36.164  3469  3469 D PowerUI : plugged        true --> true
+03-28 01:20:36.164  3469  3469 D PowerUI : health         2 --> 2
+03-28 01:20:36.162  3469  3469 I chatty  : uid=10030(com.android.systemui) identical 1 line
+03-28 01:20:36.163  3469  3469 D BatteryMeterDrawable: onBatteryLevelChanged level=100,pluggedIn=true,charging=true
+03-28 01:20:36.165  6798  6798 D BatteryObserver: 2026-03-28T04:20:36.163Z: [id=1] ACTION_BATTERY_CHANGED received; extras=technology,icon-small,max_charging_voltage,health,max_charging_current,status,plugged,present,seq,charge_counter,level,scale,temperature,voltage,invalid_charger
+03-28 01:20:36.166  3469  3469 D BatteryMeterDrawable: onReceive action=android.intent.action.BATTERY_CHANGED
+03-28 01:20:36.166  3469  3469 D BatteryMeterDrawable: onReceive level=100,plugType=2,status=5
+03-28 01:20:36.166  3469  3469 D BatteryMeterDrawable: Screen is off, stop charging anim
+03-28 01:20:36.166  3469  3469 D BatteryMeterDrawable: onReceive action=android.intent.action.BATTERY_CHANGED
+03-28 01:20:36.166  3469  3469 D BatteryMeterDrawable: onReceive level=100,plugType=2,status=5
+03-28 01:20:36.166  3469  3469 D BatteryMeterDrawable: Screen is off, stop charging anim
+03-28 01:20:36.167  3469  3469 D BatteryMeterDrawable: onReceive action=android.intent.action.BATTERY_CHANGED
+03-28 01:20:36.167  3469  3469 D BatteryMeterDrawable: onReceive level=100,plugType=2,status=5
+03-28 01:20:36.167  3469  3469 D BatteryMeterDrawable: Screen is off, stop charging anim
+03-28 01:20:36.169  6798  6798 D BatteryObserver: 2026-03-28T04:20:36.168Z: State: charging=true/USB, level=100%, temp=33.4C
+03-28 01:20:36.242  3782  3823 I CPVoiceAgent: select: retrun 0
+03-28 01:20:36.344  3306  3335 D RIL     : rxlev[0]=99, rscp[0]=255, rsrp[0]=96
+03-28 01:20:36.344  3306  3335 D RILC    : currentSignalStrengthInd
+03-28 01:20:36.344  3306  3335 I RILC    : RIL_SOCKET_1 UNSOLICITED: UNSOL_SIGNAL_STRENGTH length:56
+03-28 01:20:36.348  3431  3741 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:36.350  3258  9830 I WifiService: getConnectionInfo uid=10087
+03-28 01:20:36.479  6200  6207 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:36.481 11536 11543 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:37.193  3469  3650 I sysui_multi_action: [757,1093,758,4,793,3490,1094,604520449,1095,5]
+03-28 01:20:36.349  3431  3741 I chatty  : uid=1001(radio) Binder:3431_5 identical 1 line
+03-28 01:20:36.362  3431  3741 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:37.345  3306  3335 D RIL     : rxlev[0]=99, rscp[0]=255, rsrp[0]=96
+03-28 01:20:37.345  3306  3335 D RILC    : currentSignalStrengthInd
+03-28 01:20:37.345  3306  3335 I RILC    : RIL_SOCKET_1 UNSOLICITED: UNSOL_SIGNAL_STRENGTH length:56
+03-28 01:20:37.348  3431  3741 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:37.351  3258  9830 I WifiService: getConnectionInfo uid=10087
+03-28 01:20:37.744  3782  3823 I CPVoiceAgent: select: retrun 0
+03-28 01:20:37.350  3431  3741 I chatty  : uid=1001(radio) Binder:3431_5 identical 1 line
+03-28 01:20:37.362  3431  3741 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:38.345  3306  3335 D RIL     : rxlev[0]=99, rscp[0]=255, rsrp[0]=96
+03-28 01:20:38.345  3306  3335 D RILC    : currentSignalStrengthInd
+03-28 01:20:38.345  3306  3335 I RILC    : RIL_SOCKET_1 UNSOLICITED: UNSOL_SIGNAL_STRENGTH length:56
+03-28 01:20:38.349  3431  3741 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:38.351  3258  9830 I WifiService: getConnectionInfo uid=10087
+03-28 01:20:38.487 11536 11543 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:38.488  6200  6207 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:38.949  3016  3198 D WCND    : is_cp2_alive_ok: open polling interface: /proc/mdbg/loopcheck, fd = 13
+03-28 01:20:39.050  3016  3198 D WCND    : is_cp2_alive_ok: loop: /proc/mdbg/loopcheck is OK
+03-28 01:20:39.116  3258  3269 I am_destroy_service: [0,3572810,9831]
+03-28 01:20:39.118  3258  3269 V AlarmManager: remove(operation) changed bounds; rebatching
+03-28 01:20:39.246  3782  3823 I CPVoiceAgent: select: retrun 0
+03-28 01:20:38.351  3431  3741 I chatty  : uid=1001(radio) Binder:3431_5 identical 1 line
+03-28 01:20:38.362  3431  3741 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:39.346  3306  3335 D RIL     : rxlev[0]=99, rscp[0]=255, rsrp[0]=96
+03-28 01:20:39.346  3306  3335 D RILC    : currentSignalStrengthInd
+03-28 01:20:39.346  3306  3335 I RILC    : RIL_SOCKET_1 UNSOLICITED: UNSOL_SIGNAL_STRENGTH length:56
+03-28 01:20:39.349  3431  3741 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:39.352  3258  3269 I WifiService: getConnectionInfo uid=10087
+03-28 01:20:39.351  3431  3741 I chatty  : uid=1001(radio) Binder:3431_5 identical 1 line
+03-28 01:20:39.362  3431  3741 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:40.346  3306  3335 D RIL     : rxlev[0]=99, rscp[0]=255, rsrp[0]=96
+03-28 01:20:40.347  3306  3335 D RILC    : currentSignalStrengthInd
+03-28 01:20:40.347  3306  3335 I RILC    : RIL_SOCKET_1 UNSOLICITED: UNSOL_SIGNAL_STRENGTH length:56
+03-28 01:20:40.350  3431  3741 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:40.353  3258  3269 I WifiService: getConnectionInfo uid=10087
+03-28 01:20:40.496 11536 11543 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:40.497  6200  6207 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:40.748  3782  3823 I CPVoiceAgent: select: retrun 0
+03-28 01:20:40.872  2923  2923 D memtrack_sprd: sprd_get_memory, pid:7051, type:1, allocated_records:0, num records:2
+03-28 01:20:40.873  2923  2923 D memtrack_sprd: sprd_get_memory, pid:7051, type:1, allocated_records:2, num records:2
+03-28 01:20:40.873  2923  2923 D memtrack_sprd: sprd_get_memory, pid:7051, type:2, allocated_records:0, num records:2
+03-28 01:20:40.873  2923  2923 D memtrack_sprd: sprd_get_memory, pid:7051, type:2, allocated_records:2, num records:2
+03-28 01:20:40.352  3431  3741 I chatty  : uid=1001(radio) Binder:3431_5 identical 1 line
+03-28 01:20:40.365  3431  3741 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:41.347  3306  3335 D RIL     : rxlev[0]=99, rscp[0]=255, rsrp[0]=96
+03-28 01:20:41.347  3306  3335 D RILC    : currentSignalStrengthInd
+03-28 01:20:41.347  3306  3335 I RILC    : RIL_SOCKET_1 UNSOLICITED: UNSOL_SIGNAL_STRENGTH length:56
+03-28 01:20:41.351  3431  3741 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:41.354  3258  3269 I WifiService: getConnectionInfo uid=10087
+03-28 01:20:41.700  7835  7835 I auditd  : type=1400 audit(0.0:14664): avc: denied { getattr } for comm="sh" path="/system/bin/toybox" dev="mmcblk0p33" ino=652 scontext=u:r:su:s0 tcontext=u:object_r:toolbox_exec:s0 tclass=file permissive=1
+03-28 01:20:41.700  7835  7835 I sh      : type=1400 audit(0.0:14664): avc: denied { getattr } for path="/system/bin/toybox" dev="mmcblk0p33" ino=652 scontext=u:r:su:s0 tcontext=u:object_r:toolbox_exec:s0 tclass=file permissive=1
+03-28 01:20:41.780  7837  7837 I auditd  : type=1400 audit(0.0:14668): avc: denied { dac_override } for comm="sh" capability=1 scontext=u:r:su:s0 tcontext=u:r:su:s0 tclass=capability permissive=1
+03-28 01:20:41.780  7837  7837 I sh      : type=1400 audit(0.0:14668): avc: denied { dac_override } for capability=1 scontext=u:r:su:s0 tcontext=u:r:su:s0 tclass=capability permissive=1
+03-28 01:20:41.780  7837  7837 I auditd  : type=1400 audit(0.0:14669): avc: denied { read } for comm="sh" name="tmp" dev="mmcblk0p38" ino=50 scontext=u:r:su:s0 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=1
+03-28 01:20:41.780  7837  7837 I sh      : type=1400 audit(0.0:14669): avc: denied { read } for name="tmp" dev="mmcblk0p38" ino=50 scontext=u:r:su:s0 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=1
+03-28 01:20:41.810  7839  7839 I auditd  : type=1400 audit(0.0:14671): avc: denied { getattr } for comm="ls" path="/data/local/tmp/boot_log.txt" dev="mmcblk0p38" ino=19772 scontext=u:r:su:s0 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=1
+03-28 01:20:41.810  7839  7839 I ls      : type=1400 audit(0.0:14671): avc: denied { getattr } for path="/data/local/tmp/boot_log.txt" dev="mmcblk0p38" ino=19772 scontext=u:r:su:s0 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=1
+03-28 01:20:42.250  3782  3823 I CPVoiceAgent: select: retrun 0
+03-28 01:20:41.353  3431  3741 I chatty  : uid=1001(radio) Binder:3431_5 identical 1 line
+03-28 01:20:41.365  3431  3741 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:42.348  3306  3335 D RIL     : rxlev[0]=99, rscp[0]=255, rsrp[0]=96
+03-28 01:20:42.348  3306  3335 D RILC    : currentSignalStrengthInd
+03-28 01:20:42.348  3306  3335 I RILC    : RIL_SOCKET_1 UNSOLICITED: UNSOL_SIGNAL_STRENGTH length:56
+03-28 01:20:42.352  3431  3741 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:42.354  3258  3269 I WifiService: getConnectionInfo uid=10087
+03-28 01:20:42.504 11536 11543 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:42.505  6200  6207 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:42.354  3431  3741 I chatty  : uid=1001(radio) Binder:3431_5 identical 1 line
+03-28 01:20:42.366  3431  3741 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:43.349  3306  3335 D RIL     : rxlev[0]=99, rscp[0]=255, rsrp[0]=96
+03-28 01:20:43.349  3306  3335 D RILC    : currentSignalStrengthInd
+03-28 01:20:43.349  3306  3335 I RILC    : RIL_SOCKET_1 UNSOLICITED: UNSOL_SIGNAL_STRENGTH length:56
+03-28 01:20:43.352  3431  3741 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:43.355  3258  3269 I WifiService: getConnectionInfo uid=10087
+03-28 01:20:43.751  3782  3823 I CPVoiceAgent: select: retrun 0
+03-28 01:20:44.055  3016  3198 D WCND    : is_cp2_alive_ok: open polling interface: /proc/mdbg/loopcheck, fd = 13
+03-28 01:20:44.156  3016  3198 D WCND    : is_cp2_alive_ok: loop: /proc/mdbg/loopcheck is OK
+03-28 01:20:43.354  3431  3741 I chatty  : uid=1001(radio) Binder:3431_5 identical 1 line
+03-28 01:20:43.367  3431  3741 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:44.349  3306  3335 D RIL     : rxlev[0]=99, rscp[0]=255, rsrp[0]=95
+03-28 01:20:44.349  3306  3335 D RILC    : currentSignalStrengthInd
+03-28 01:20:44.350  3306  3335 I RILC    : RIL_SOCKET_1 UNSOLICITED: UNSOL_SIGNAL_STRENGTH length:56
+03-28 01:20:44.353  3431  3741 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:44.356  3258  3269 I WifiService: getConnectionInfo uid=10087
+03-28 01:20:44.513 11536 11543 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:44.513  6200  6207 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:45.252  3782  3823 I CPVoiceAgent: select: retrun 0
+03-28 01:20:44.355  3431  3741 I chatty  : uid=1001(radio) Binder:3431_5 identical 1 line
+03-28 01:20:44.366  3431  3741 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:45.350  3306  3335 D RIL     : rxlev[0]=99, rscp[0]=255, rsrp[0]=95
+03-28 01:20:45.350  3306  3335 D RILC    : currentSignalStrengthInd
+03-28 01:20:45.350  3306  3335 I RILC    : RIL_SOCKET_1 UNSOLICITED: UNSOL_SIGNAL_STRENGTH length:56
+03-28 01:20:45.354  3431  3741 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:45.356  3258  9830 I WifiService: getConnectionInfo uid=10087
+03-28 01:20:45.356  3431  3741 I chatty  : uid=1001(radio) Binder:3431_5 identical 1 line
+03-28 01:20:45.368  3431  3741 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:46.351  3306  3335 D RIL     : rxlev[0]=99, rscp[0]=255, rsrp[0]=95
+03-28 01:20:46.351  3306  3335 D RILC    : currentSignalStrengthInd
+03-28 01:20:46.351  3306  3335 I RILC    : RIL_SOCKET_1 UNSOLICITED: UNSOL_SIGNAL_STRENGTH length:56
+03-28 01:20:46.354  3431  3741 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:46.357  3258  9830 I WifiService: getConnectionInfo uid=10087
+03-28 01:20:46.521 11536 11543 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:46.521  6200  6207 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:46.754  3782  3823 I CPVoiceAgent: select: retrun 0
+03-28 01:20:46.356  3431  3741 I chatty  : uid=1001(radio) Binder:3431_5 identical 1 line
+03-28 01:20:46.368  3431  3741 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:47.351  3306  3335 D RIL     : rxlev[0]=99, rscp[0]=255, rsrp[0]=95
+03-28 01:20:47.352  3306  3335 D RILC    : currentSignalStrengthInd
+03-28 01:20:47.352  3306  3335 I RILC    : RIL_SOCKET_1 UNSOLICITED: UNSOL_SIGNAL_STRENGTH length:56
+03-28 01:20:47.355  3431  3741 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:47.357  3258  9830 I WifiService: getConnectionInfo uid=10087
+03-28 01:20:48.256  3782  3823 I CPVoiceAgent: select: retrun 0
+03-28 01:20:47.356  3431  3741 I chatty  : uid=1001(radio) Binder:3431_5 identical 1 line
+03-28 01:20:47.367  3431  3741 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:48.352  3306  3335 D RIL     : rxlev[0]=99, rscp[0]=255, rsrp[0]=95
+03-28 01:20:48.352  3306  3335 D RILC    : currentSignalStrengthInd
+03-28 01:20:48.352  3306  3335 I RILC    : RIL_SOCKET_1 UNSOLICITED: UNSOL_SIGNAL_STRENGTH length:56
+03-28 01:20:48.356  3431  3741 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:48.358  3258  9830 I WifiService: getConnectionInfo uid=10087
+03-28 01:20:48.529  6200  6207 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:48.530 11536 11543 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:49.075  3258  3376 D AlarmManager: waitForAlarm result:4currentTime=1774671649075, elapsedRealtime=89354663
+03-28 01:20:49.075  3258  3376 D AlarmManager: triggerList.size = 1, hasWakeup = true
+03-28 01:20:49.075  3258  3376 D AlarmManagerService: set alarm to kernel: 89356.144000000, type=2 
+03-28 01:20:49.075  3258  3376 V AlarmManager: sending alarm Alarm{a7100b4 type 2 when 89354663 com.android.systemui}
+03-28 01:20:49.076  3258  3376 D BroadcastQueue: Add broadcast <BroadcastRecord{f8c54dd u0 android.intent.action.dw_clear_apps}> into [ordered | background], pending size 0
+03-28 01:20:49.076  3258  3376 D BroadcastQueue: Header is BroadcastRecord{f8c54dd u0 android.intent.action.dw_clear_apps} now
+03-28 01:20:49.078  3469  3469 D EmBootNetService: wwwwwwww, EmBootNetService, action:android.intent.action.dw_clear_apps
+03-28 01:20:49.078  3469  3469 D EmBootNetService: EmBootNetService-->MSG_DW_KILL_THIRD_APP
+03-28 01:20:49.078  3469  3469 D EmBootNetService: clearThirdAppList allKill:false
+03-28 01:20:49.079  3258  9830 D BroadcastQueue: Finished with ordered broadcast BroadcastRecord{f8c54dd u0 android.intent.action.dw_clear_apps} receivers:(1) take 3ms in [background], remains 0
+03-28 01:20:49.161  3016  3198 D WCND    : is_cp2_alive_ok: open polling interface: /proc/mdbg/loopcheck, fd = 13
+03-28 01:20:49.168  3469  3469 D EmBootNetService: applicationInfos size:2
+03-28 01:20:49.174  3258  9830 I ActivityManager: Force stopping com.iodvd.stviewer appid=10088 user=0: from pid 3469
+03-28 01:20:49.174  3258  9830 I am_uid_stopped: 10088
+03-28 01:20:49.174  3258  9830 I ActivityManager: Killing 7051:com.iodvd.stviewer/u0a88 (adj 0): stop com.iodvd.stviewer
+03-28 01:20:49.174  3258  9830 I am_kill : [0,7051,com.iodvd.stviewer,0,stop com.iodvd.stviewer]
+03-28 01:20:49.177  3258  3279 W system_server: kill(-7051, 9) failed: No such process
+03-28 01:20:49.179  3258  9830 I am_uid_running: 10088
+03-28 01:20:49.195  3258  9830 I am_proc_start: [0,7841,10088,com.iodvd.stviewer,activity,com.iodvd.stviewer/.MapViewerActivity]
+03-28 01:20:49.195  3258  9830 I ActivityManager: Start proc 7841:com.iodvd.stviewer/u0a88 for activity com.iodvd.stviewer/.MapViewerActivity
+03-28 01:20:49.200  3258  9830 I ActivityManager:   Force finishing activity ActivityRecord{88f8ab8 u0 com.iodvd.stviewer/.MapViewerActivity t166}
+03-28 01:20:49.201  7841  7841 I zygote64: Late-enabling -Xcheck:jni
+03-28 01:20:49.202  3258  9830 I am_finish_activity: [0,143624888,166,com.iodvd.stviewer/.MapViewerActivity,force-stop]
+03-28 01:20:49.202  7841  7841 E zygote64: setrlimit(RLIMIT_CORE) failed for pid 7841: Operation not permitted
+03-28 01:20:49.203  3258  9830 D WindowManager: Input focus has changed to null
+03-28 01:20:49.216  9831 29422 I NearbyDiscovery: FastPair: isDestroyable: Scanner is alive. [CONTEXT service_id=265 ]
+03-28 01:20:49.217  9831 29422 I NearbyDiscovery: DiscoveryService: Skip stopSelf(), fast pair controller is not destroyable. [CONTEXT service_id=265 ]
+03-28 01:20:49.217  3258  9830 I am_set_resumed_activity: [0,com.urbetrack.sweeptracker/.ui.screens.MainActivity,resumeTopActivityInnerLocked]
+03-28 01:20:49.220  3258  9830 I am_resume_activity: [0,221051766,165,com.urbetrack.sweeptracker/.ui.screens.MainActivity]
+03-28 01:20:49.221  3258  3279 W system_server: kill(-7051, 9) failed: No such process
+03-28 01:20:49.221  3258  3651 D PowerController.AppState: - reportAppStateEventInfo() E -
+03-28 01:20:49.221  3258  3654 D PowerController.RecogA: handleMessage(MSG_REPORT_EVENT)
+03-28 01:20:49.225  3258  9830 I am_pause_activity: [0,221051766,com.urbetrack.sweeptracker/.ui.screens.MainActivity]
+03-28 01:20:49.226  3258  9830 D BroadcastQueue: Add broadcast <BroadcastRecord{89a852 u0 android.intent.action.PACKAGE_RESTARTED}> into [parallel | background], pending size 0
+03-28 01:20:49.226  3258  3277 I sysui_count: [window_time_0,143]
+03-28 01:20:49.226  3258  3277 I sysui_multi_action: [757,803,799,window_time_0,802,143]
+03-28 01:20:49.227  3469  7840 D EmBootNetService: forceStopPackage:  com.iodvd.stviewer
+03-28 01:20:49.227  3258  3277 I am_destroy_activity: [0,143624888,166,com.iodvd.stviewer/.MapViewerActivity,finish-imm]
+03-28 01:20:49.227  3258  3651 D PowerController.AppState: - reportAppStateEventInfo() E -
+03-28 01:20:49.227  3258  3651 D PowerController.AppState: - reportAppProcStateInfo() E -
+03-28 01:20:49.227  3258  3654 D PowerController.RecogA: handleMessage(MSG_REPORT_EVENT)
+03-28 01:20:49.231  3258  3277 I wm_task_removed: [166,removeAppToken: last token]
+03-28 01:20:49.233  2939  2939 I gralloc : gralloc_unregister_buffer hnd=0x7dd74f32c0, share_fd=53, share_attr_fd=71, magic=51647890, format=1, internal_format=1, byte_stride=1664, flags=4, usage=0x900, size=835328, width=410, height=502, internalWidth=410, internalHeight=502, stride=416, base=0x7dd7237000, writeOwner=0, attr_base=0xffffffffffffffff, yuv_info=1, fd=-1, buf_idx=0, offset=0, min_pgsz=4096, phyaddr=0
+03-28 01:20:49.233  3258  3277 I wm_task_removed: [166,removeTask]
+03-28 01:20:49.234  2939  2939 I gralloc : gralloc_unregister_buffer hnd=0x7ddb02dc00, share_fd=92, share_attr_fd=95, magic=51647890, format=1, internal_format=1, byte_stride=1664, flags=4, usage=0xb00, size=835328, width=410, height=502, internalWidth=410, internalHeight=502, stride=416, base=0x7dd709f000, writeOwner=0, attr_base=0xffffffffffffffff, yuv_info=1, fd=-1, buf_idx=0, offset=0, min_pgsz=4096, phyaddr=0
+03-28 01:20:49.234  2939  2939 I gralloc : gralloc_unregister_buffer hnd=0x7ddb02d480, share_fd=90, share_attr_fd=97, magic=51647890, format=1, internal_format=1, byte_stride=1664, flags=4, usage=0xb00, size=835328, width=410, height=502, internalWidth=410, internalHeight=502, stride=416, base=0x7dd716b000, writeOwner=0, attr_base=0xffffffffffffffff, yuv_info=1, fd=-1, buf_idx=0, offset=0, min_pgsz=4096, phyaddr=0
+03-28 01:20:49.252  6798  6831 D SessionLifecycleClient: Sending lifecycle 1 to service
+03-28 01:20:49.252  6798  6886 D SessionLifecycleService: Activity foregrounding at 49163341.
+03-28 01:20:49.254  3258  3258 I notification_cancel_all: [1000,3258,com.iodvd.stviewer,0,0,0,5,NULL]
+03-28 01:20:49.227  3258  3654 D PowerController.RecogA: handleMessage(MSG_REPORT_EVENT)
+03-28 01:20:49.255  3258  3277 D BroadcastQueue: Done with parallel broadcast [background] [BroadcastRecord{89a852 u0 android.intent.action.PACKAGE_RESTARTED}]
+03-28 01:20:49.256  3431  3431 D CarrierSvcBindHelper: No carrier app for: 0
+03-28 01:20:49.261  3258  3279 W system_server: kill(-7051, 9) failed: No such process
+03-28 01:20:49.261  3016  3198 D WCND    : is_cp2_alive_ok: loop: /proc/mdbg/loopcheck is OK
+03-28 01:20:49.261  6798  6798 D BatteryObserver: 2026-03-28T04:20:49.259Z: State: charging=true/USB, level=100%, temp=33.4C
+03-28 01:20:49.260  7841  7841 I auditd  : type=1400 audit(0.0:14672): avc: denied { connectto } for comm="JDWP" path=006A6477702D636F6E74726F6C scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:su:s0 tclass=unix_stream_socket permissive=1
+03-28 01:20:49.260  7841  7841 I JDWP    : type=1400 audit(0.0:14672): avc: denied { connectto } for path=006A6477702D636F6E74726F6C scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:su:s0 tclass=unix_stream_socket permissive=1
+03-28 01:20:49.270  3875  3875 I auditd  : type=1400 audit(0.0:14673): avc: denied { read write } for comm="adbd" name="0" dev="devpts" ino=3 scontext=u:r:su:s0 tcontext=u:object_r:devpts:s0 tclass=chr_file permissive=1
+03-28 01:20:49.270  3875  3875 I adbd    : type=1400 audit(0.0:14673): avc: denied { read write } for name="0" dev="devpts" ino=3 scontext=u:r:su:s0 tcontext=u:object_r:devpts:s0 tclass=chr_file permissive=1
+03-28 01:20:49.270  3875  3875 I auditd  : type=1400 audit(0.0:14674): avc: denied { open } for comm="adbd" path="/dev/pts/0" dev="devpts" ino=3 scontext=u:r:su:s0 tcontext=u:object_r:devpts:s0 tclass=chr_file permissive=1
+03-28 01:20:49.270  3875  3875 I adbd    : type=1400 audit(0.0:14674): avc: denied { open } for path="/dev/pts/0" dev="devpts" ino=3 scontext=u:r:su:s0 tcontext=u:object_r:devpts:s0 tclass=chr_file permissive=1
+03-28 01:20:49.270  3469  7840 D EmBootNetService: mTmpinfo.packageName:com.iodvd.stviewer stop:true
+03-28 01:20:49.273  6798  6798 D MainActivity: 2026-03-28T04:20:49.269Z: startLocationAndSyncServices called: servicesStarted=true, hasPermissions=true
+03-28 01:20:49.273  3258  9830 I ActivityManager: Force stopping com.iodvd.stviewer appid=10088 user=0: from pid 3469
+03-28 01:20:49.273  3258  9830 I am_uid_stopped: 10088
+03-28 01:20:49.273  3258  9830 I ActivityManager: Killing 7841:com.iodvd.stviewer/u0a88 (adj -10000): stop com.iodvd.stviewer
+03-28 01:20:49.274  3258  9830 I am_kill : [0,7841,com.iodvd.stviewer,-10000,stop com.iodvd.stviewer]
+03-28 01:20:49.270  7855  7855 I auditd  : type=1400 audit(0.0:14675): avc: denied { ioctl } for comm="adbd" path="/dev/pts/0" dev="devpts" ino=3 ioctlcmd=540e scontext=u:r:su:s0 tcontext=u:object_r:devpts:s0 tclass=chr_file permissive=1
+03-28 01:20:49.270  7855  7855 I adbd    : type=1400 audit(0.0:14675): avc: denied { ioctl } for path="/dev/pts/0" dev="devpts" ino=3 ioctlcmd=540e scontext=u:r:su:s0 tcontext=u:object_r:devpts:s0 tclass=chr_file permissive=1
+03-28 01:20:49.278  3258  9830 D BroadcastQueue: Add broadcast <BroadcastRecord{cafb24c u0 android.intent.action.PACKAGE_RESTARTED}> into [parallel | background], pending size 0
+03-28 01:20:49.278  3469  7840 D EmBootNetService: forceStopPackage:  com.iodvd.stviewer
+03-28 01:20:49.279  6798  6798 I MainActivity: 2026-03-28T04:20:49.279Z: Services already started, skipping.
+03-28 01:20:49.282  3258  3258 I notification_cancel_all: [1000,3258,com.iodvd.stviewer,0,0,0,5,NULL]
+03-28 01:20:49.283  3258  3277 D BroadcastQueue: Done with parallel broadcast [background] [BroadcastRecord{cafb24c u0 android.intent.action.PACKAGE_RESTARTED}]
+03-28 01:20:49.288  3431  3431 D CarrierSvcBindHelper: No carrier app for: 0
+03-28 01:20:49.291  6798  6798 D ConnectivityObserver: 2026-03-28T04:20:49.286Z: [id=1] start() called - active instances=3
+03-28 01:20:49.290  7855  7855 I auditd  : type=1400 audit(0.0:14676): avc: denied { getattr } for comm="sh" path="/dev/pts/0" dev="devpts" ino=3 scontext=u:r:su:s0 tcontext=u:object_r:devpts:s0 tclass=chr_file permissive=1
+03-28 01:20:49.290  7855  7855 I sh      : type=1400 audit(0.0:14676): avc: denied { getattr } for path="/dev/pts/0" dev="devpts" ino=3 scontext=u:r:su:s0 tcontext=u:object_r:devpts:s0 tclass=chr_file permissive=1
+03-28 01:20:49.292  3258  9830 I am_create_service: [0,88672155,.MeasurementBrokerService,10014,9925]
+03-28 01:20:49.292  6798  6798 D ConnectivityObserver: 2026-03-28T04:20:49.292Z: start() called but already started; refreshing state
+03-28 01:20:49.294  9925  9925 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+03-28 01:20:49.294  9925  9925 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+03-28 01:20:49.295  3258 20019 I WifiService: getConnectionInfo uid=10087
+03-28 01:20:49.302  3258  3279 W system_server: kill(-7051, 9) failed: No such process
+03-28 01:20:49.310  7859  7859 I auditd  : type=1400 audit(0.0:14677): avc: denied { execute_no_trans } for comm="xargs" path="/system/bin/cmd" dev="mmcblk0p33" ino=401 scontext=u:r:su:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
+03-28 01:20:49.310  7859  7859 I xargs   : type=1400 audit(0.0:14677): avc: denied { execute_no_trans } for path="/system/bin/cmd" dev="mmcblk0p33" ino=401 scontext=u:r:su:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
+03-28 01:20:49.324  6798  6798 D ConnectivityObserver: 2026-03-28T04:20:49.323Z: Refreshed snapshot: isWifi=true, wifiLevel=2, isOnline=true, carrier=AR PERSONAL, iccid=89543680324007475589
+03-28 01:20:49.326  3258 20019 I WifiService: getConnectionInfo uid=10087
+03-28 01:20:49.341  3258  3279 W system_server: kill(-7051, 9) failed: No such process
+03-28 01:20:49.344  6798  6798 I am_on_resume_called: [0,com.urbetrack.sweeptracker.ui.screens.MainActivity,RESUME_ACTIVITY]
+03-28 01:20:49.352  2936  3131 D ENGPC   : parse_event: event { 'change', '/devices/virtual/xt_idletimer/timers', 'xt_idletimer', '' }
+03-28 01:20:49.306  3431  3741 I chatty  : uid=1001(radio) Binder:3431_5 identical 3 lines
+03-28 01:20:49.333  3431  3741 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:49.353  3306  3335 D RIL     : rxlev[0]=99, rscp[0]=255, rsrp[0]=95
+03-28 01:20:49.353  3306  3335 D RILC    : currentSignalStrengthInd
+03-28 01:20:49.353  3306  3335 I RILC    : RIL_SOCKET_1 UNSOLICITED: UNSOL_SIGNAL_STRENGTH length:56
+03-28 01:20:49.361  3258  3295 W ActivityManager: setHasOverlayUi called on unknown pid: 7051
+03-28 01:20:49.362  6798  6798 D ConnectivityObserver: 2026-03-28T04:20:49.361Z: stop() called - remaining active instances=2
+03-28 01:20:49.363  6798  6798 D ConnectivityObserver: 2026-03-28T04:20:49.363Z: Other active instances remain; skipping full stop
+03-28 01:20:49.364  3431  3741 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:49.364  6798  6798 I am_on_paused_called: [0,com.urbetrack.sweeptracker.ui.screens.MainActivity,handlePauseActivity]
+03-28 01:20:49.366  6798  6826 D SessionLifecycleClient: Sending lifecycle 2 to service
+03-28 01:20:49.367  3258  3277 I am_stop_activity: [0,221051766,com.urbetrack.sweeptracker/.ui.screens.MainActivity]
+03-28 01:20:49.367  6798  6886 D SessionLifecycleService: Activity backgrounding at 49163456
+03-28 01:20:49.369  3258  3277 I sysui_count: [window_time_0,0]
+03-28 01:20:49.369  3258  3277 I sysui_multi_action: [757,803,799,window_time_0,802,0]
+03-28 01:20:49.371  3469  7840 D EmBootNetService: mTmpinfo.packageName:com.iodvd.stviewer stop:false
+03-28 01:20:49.374  3258  4001 I ActivityManager: Force stopping com.iodvd.stviewer appid=10088 user=0: from pid 3469
+03-28 01:20:49.376  3258  4001 D BroadcastQueue: Add broadcast <BroadcastRecord{3797311 u0 android.intent.action.PACKAGE_RESTARTED}> into [parallel | background], pending size 0
+03-28 01:20:49.378  3258  3258 I notification_cancel_all: [1000,3258,com.iodvd.stviewer,0,0,0,5,NULL]
+03-28 01:20:49.380  3258  3277 D BroadcastQueue: Done with parallel broadcast [background] [BroadcastRecord{3797311 u0 android.intent.action.PACKAGE_RESTARTED}]
+03-28 01:20:49.381  3469  7840 D EmBootNetService: forceStopPackage:  com.iodvd.stviewer
+03-28 01:20:49.384  3258  3279 W system_server: kill(-7051, 9) failed: No such process
+03-28 01:20:49.380  7859  7859 I auditd  : type=1400 audit(0.0:14678): avc: denied { read write } for comm="cmd" name="binder" dev="tmpfs" ino=90 scontext=u:r:su:s0 tcontext=u:object_r:binder_device:s0 tclass=chr_file permissive=1
+03-28 01:20:49.380  7859  7859 I cmd     : type=1400 audit(0.0:14678): avc: denied { read write } for name="binder" dev="tmpfs" ino=90 scontext=u:r:su:s0 tcontext=u:object_r:binder_device:s0 tclass=chr_file permissive=1
+03-28 01:20:49.380  7859  7859 I auditd  : type=1400 audit(0.0:14679): avc: denied { open } for comm="cmd" path="/dev/binder" dev="tmpfs" ino=90 scontext=u:r:su:s0 tcontext=u:object_r:binder_device:s0 tclass=chr_file permissive=1
+03-28 01:20:49.380  7859  7859 I cmd     : type=1400 audit(0.0:14679): avc: denied { open } for path="/dev/binder" dev="tmpfs" ino=90 scontext=u:r:su:s0 tcontext=u:object_r:binder_device:s0 tclass=chr_file permissive=1
+03-28 01:20:49.384  3258  3279 I system_server: Successfully killed process cgroup uid 10088 pid 7051 in 208ms
+03-28 01:20:49.384  3258  3279 W system_server: kill(-7841, 9) failed: No such process
+03-28 01:20:49.385  3258  3279 I system_server: Successfully killed process cgroup uid 10088 pid 7841 in 0ms
+03-28 01:20:49.385  3431  3431 D CarrierSvcBindHelper: No carrier app for: 0
+03-28 01:20:49.387  3911  3911 D ApplicationLock: Service mForegroundPkgs.length = 1
+03-28 01:20:49.388  3911  3911 D ApplicationLock: Service getAppNameByPID, PID = 6798, processName = com.urbetrack.sweeptracker
+03-28 01:20:49.388  3911  3911 D ApplicationLock: Service ForegroundPackageName: com.urbetrack.sweeptracker
+03-28 01:20:49.389  3911  3911 D ApplicationLock: Utils isAppNeedLock context = com.sprd.applock.AppLockService@cd53a57 --packageName: com.urbetrack.sweeptracker size = 12
+03-28 01:20:49.389  3911  3911 D ApplicationLock: Utils isAppNeedLock needLockedPackage = 
+03-28 01:20:49.389  3911  3911 E ApplicationLock: Utils isAppAlreadyUnlocked map not contains this pkgName: com.urbetrack.sweeptracker
+03-28 01:20:49.389  3911  3911 D ApplicationLock: Service isAppNeedLock pkg = com.urbetrack.sweeptracker needLock = false alreadyUnlock = false
+03-28 01:20:49.414  3258 20019 D WindowManager: Input focus has changed to Window{ddab786 u0 com.urbetrack.sweeptracker/com.urbetrack.sweeptracker.ui.screens.MainActivity}
+03-28 01:20:49.422  2919  4669 I gralloc : mali_gralloc_select_format, AFBC is disabled now
+03-28 01:20:49.422  2919  4669 I gralloc : mali_gralloc_select_format: req_format=0x00000001 req_fmt_mapped=0x0 internal_format=0x1 usage=0x900
+03-28 01:20:49.423  2919  4669 I gralloc : gralloc=>alloc, share_fd=12, share_attr_fd=13, magic=51647890, format=1, internal_format=1, byte_stride=1664, flags=4, usage=0x2304, size=835328, width=410, height=502, internalWidth=410, internalHeight=502, stride=416, ADP_VSTRIDE=0,base=0x7c00934000, writeOwner=0, attr_base=0xffffffffffffffff, yuv_info=1, fd=-1, buf_idx=0, offset=0, min_pgsz=4096, phyaddr=0
+03-28 01:20:49.423  2919  4669 I gralloc : gralloc=>free hnd=0x7c00a1f300, share_fd=12, share_attr_fd=13, magic=51647890, format=1, internal_format=1, byte_stride=1664, flags=4, usage=2304, size=835328, width=410, height=502, internalWidth=410, internalHeight=502, stride=416, base=0x7c00934000, writeOwner=0, attr_base=0xffffffffffffffff, yuv_info=1, fd=-1, buf_idx=0, offset=0, min_pgsz=4096, phyaddr=0
+03-28 01:20:49.424  2939  4023 I gralloc : gralloc_register_buffer hnd=0x7ddb02d9c0, share_fd=34, share_attr_fd=36, magic=51647890, format=1, internal_format=1, byte_stride=1664, flags=4, usage=0x900, size=835328, width=410, height=502, internalWidth=410, internalHeight=502, stride=416, base=0x7dd7237000, writeOwner=0, attr_base=0xffffffffffffffff, yuv_info=1, fd=-1, buf_idx=0, offset=0, min_pgsz=4096, phyaddr=0
+03-28 01:20:49.424  2919  4669 I gralloc : mali_gralloc_select_format, AFBC is disabled now
+03-28 01:20:49.424  2919  4669 I gralloc : mali_gralloc_select_format: req_format=0x00000001 req_fmt_mapped=0x0 internal_format=0x1 usage=0x900
+03-28 01:20:49.425  2919  4669 I gralloc : gralloc=>alloc, share_fd=12, share_attr_fd=13, magic=51647890, format=1, internal_format=1, byte_stride=1664, flags=4, usage=0x2304, size=835328, width=410, height=502, internalWidth=410, internalHeight=502, stride=416, ADP_VSTRIDE=0,base=0x7c00934000, writeOwner=0, attr_base=0xffffffffffffffff, yuv_info=1, fd=-1, buf_idx=0, offset=0, min_pgsz=4096, phyaddr=0
+03-28 01:20:49.425  2919  4669 I gralloc : gralloc=>free hnd=0x7c00a1f300, share_fd=12, share_attr_fd=13, magic=51647890, format=1, internal_format=1, byte_stride=1664, flags=4, usage=2304, size=835328, width=410, height=502, internalWidth=410, internalHeight=502, stride=416, base=0x7c00934000, writeOwner=0, attr_base=0xffffffffffffffff, yuv_info=1, fd=-1, buf_idx=0, offset=0, min_pgsz=4096, phyaddr=0
+03-28 01:20:49.426  2939  4023 I gralloc : gralloc_register_buffer hnd=0x7ddb02dfc0, share_fd=37, share_attr_fd=43, magic=51647890, format=1, internal_format=1, byte_stride=1664, flags=4, usage=0x900, size=835328, width=410, height=502, internalWidth=410, internalHeight=502, stride=416, base=0x7dd716b000, writeOwner=0, attr_base=0xffffffffffffffff, yuv_info=1, fd=-1, buf_idx=0, offset=0, min_pgsz=4096, phyaddr=0
+03-28 01:20:49.426  2919  4669 I gralloc : mali_gralloc_select_format, AFBC is disabled now
+03-28 01:20:49.426  2919  4669 I gralloc : mali_gralloc_select_format: req_format=0x00000001 req_fmt_mapped=0x0 internal_format=0x1 usage=0x900
+03-28 01:20:49.426  2919  4669 I gralloc : gralloc=>alloc, share_fd=12, share_attr_fd=13, magic=51647890, format=1, internal_format=1, byte_stride=1664, flags=4, usage=0x2304, size=835328, width=410, height=502, internalWidth=410, internalHeight=502, stride=416, ADP_VSTRIDE=0,base=0x7c00934000, writeOwner=0, attr_base=0xffffffffffffffff, yuv_info=1, fd=-1, buf_idx=0, offset=0, min_pgsz=4096, phyaddr=0
+03-28 01:20:49.426  2919  4669 I gralloc : gralloc=>free hnd=0x7c00a1f300, share_fd=12, share_attr_fd=13, magic=51647890, format=1, internal_format=1, byte_stride=1664, flags=4, usage=2304, size=835328, width=410, height=502, internalWidth=410, internalHeight=502, stride=416, base=0x7c00934000, writeOwner=0, attr_base=0xffffffffffffffff, yuv_info=1, fd=-1, buf_idx=0, offset=0, min_pgsz=4096, phyaddr=0
+03-28 01:20:49.427  2939  4023 I gralloc : gralloc_register_buffer hnd=0x7ddb02e140, share_fd=53, share_attr_fd=71, magic=51647890, format=1, internal_format=1, byte_stride=1664, flags=4, usage=0x900, size=835328, width=410, height=502, internalWidth=410, internalHeight=502, stride=416, base=0x7dd709f000, writeOwner=0, attr_base=0xffffffffffffffff, yuv_info=1, fd=-1, buf_idx=0, offset=0, min_pgsz=4096, phyaddr=0
+03-28 01:20:49.428  6798  6865 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, egl_color_buffer_format *, EGLBoolean) returns 0x3000, win:0x70f0c98010
+03-28 01:20:49.429  6798  6865 I OpenGLRenderer: queryNativeWindowStatus 0x70f0c98010 query=0 dataspace=0
+03-28 01:20:49.432  3258 20019 I WifiService: getConnectionInfo uid=10087
+03-28 01:20:49.366  3431  3741 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:49.439  3431  3812 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:49.466  6798  6798 I am_on_stop_called: [0,com.urbetrack.sweeptracker.ui.screens.MainActivity,sleeping]
+03-28 01:20:49.470  3469  7840 D EmBootNetService: mTmpinfo.packageName:com.iodvd.stviewer stop:false
+03-28 01:20:49.473  3258  5202 I ActivityManager: Force stopping com.iodvd.stviewer appid=10088 user=0: from pid 3469
+03-28 01:20:49.475  3258  5202 D BroadcastQueue: Add broadcast <BroadcastRecord{beb5c76 u0 android.intent.action.PACKAGE_RESTARTED}> into [parallel | background], pending size 0
+03-28 01:20:49.475  3469  7840 D EmBootNetService: forceStopPackage:  com.iodvd.stviewer
+03-28 01:20:49.477  3258  3258 I notification_cancel_all: [1000,3258,com.iodvd.stviewer,0,0,0,5,NULL]
+03-28 01:20:49.479  3258  3277 D BroadcastQueue: Done with parallel broadcast [background] [BroadcastRecord{beb5c76 u0 android.intent.action.PACKAGE_RESTARTED}]
+03-28 01:20:49.485  3431  3431 D CarrierSvcBindHelper: No carrier app for: 0
+03-28 01:20:49.571  3469  7840 D EmBootNetService: mTmpinfo.packageName:com.iodvd.stviewer stop:false
+03-28 01:20:49.574  3258  5202 I ActivityManager: Force stopping com.iodvd.stviewer appid=10088 user=0: from pid 3469
+03-28 01:20:49.577  3258  5202 D BroadcastQueue: Add broadcast <BroadcastRecord{2a68277 u0 android.intent.action.PACKAGE_RESTARTED}> into [parallel | background], pending size 0
+03-28 01:20:49.577  2939  4023 I gralloc : gralloc_unregister_buffer hnd=0x7ddb02e140, share_fd=53, share_attr_fd=71, magic=51647890, format=1, internal_format=1, byte_stride=1664, flags=4, usage=0x900, size=835328, width=410, height=502, internalWidth=410, internalHeight=502, stride=416, base=0x7dd709f000, writeOwner=0, attr_base=0xffffffffffffffff, yuv_info=1, fd=-1, buf_idx=0, offset=0, min_pgsz=4096, phyaddr=0
+03-28 01:20:49.578  3469  7840 D EmBootNetService: forceStopPackage:  com.iodvd.stviewer
+03-28 01:20:49.578  2919  4669 I gralloc : mali_gralloc_select_format, AFBC is disabled now
+03-28 01:20:49.578  2919  4669 I gralloc : mali_gralloc_select_format: req_format=0x00000001 req_fmt_mapped=0x0 internal_format=0x1 usage=0xb00
+03-28 01:20:49.579  2919  4669 I gralloc : gralloc=>alloc, share_fd=12, share_attr_fd=13, magic=51647890, format=1, internal_format=1, byte_stride=1664, flags=4, usage=0x2816, size=835328, width=410, height=502, internalWidth=410, internalHeight=502, stride=416, ADP_VSTRIDE=0,base=0x7c00934000, writeOwner=0, attr_base=0xffffffffffffffff, yuv_info=1, fd=-1, buf_idx=0, offset=0, min_pgsz=4096, phyaddr=0
+03-28 01:20:49.579  2919  4669 I gralloc : gralloc=>free hnd=0x7c00a1f300, share_fd=12, share_attr_fd=13, magic=51647890, format=1, internal_format=1, byte_stride=1664, flags=4, usage=2816, size=835328, width=410, height=502, internalWidth=410, internalHeight=502, stride=416, base=0x7c00934000, writeOwner=0, attr_base=0xffffffffffffffff, yuv_info=1, fd=-1, buf_idx=0, offset=0, min_pgsz=4096, phyaddr=0
+03-28 01:20:49.581  3258  3277 D BroadcastQueue: Done with parallel broadcast [background] [BroadcastRecord{2a68277 u0 android.intent.action.PACKAGE_RESTARTED}]
+03-28 01:20:49.584  2939  4023 I gralloc : gralloc_register_buffer hnd=0x7ddb02e140, share_fd=53, share_attr_fd=71, magic=51647890, format=1, internal_format=1, byte_stride=1664, flags=4, usage=0xb00, size=835328, width=410, height=502, internalWidth=410, internalHeight=502, stride=416, base=0x7dd709f000, writeOwner=0, attr_base=0xffffffffffffffff, yuv_info=1, fd=-1, buf_idx=0, offset=0, min_pgsz=4096, phyaddr=0
+03-28 01:20:49.586  6798  6865 I gralloc : gralloc_register_buffer hnd=0x70f5cfacc0, share_fd=81, share_attr_fd=82, magic=51647890, format=1, internal_format=1, byte_stride=1664, flags=4, usage=0xb00, size=835328, width=410, height=502, internalWidth=410, internalHeight=502, stride=416, base=0x70f6574000, writeOwner=0, attr_base=0xffffffffffffffff, yuv_info=1, fd=-1, buf_idx=0, offset=0, min_pgsz=4096, phyaddr=0
+03-28 01:20:49.587  3431  3431 D CarrierSvcBindHelper: No carrier app for: 0
+03-28 01:20:49.606  6798  6798 W MainActivity: 2026-03-28T04:20:49.606Z: locations counts collector error: StandaloneCoroutine was cancelled
+03-28 01:20:49.670  3469  7840 D EmBootNetService: mTmpinfo.packageName:com.iodvd.stviewer stop:false
+03-28 01:20:49.673  3258  5202 I ActivityManager: Force stopping com.iodvd.stviewer appid=10088 user=0: from pid 3469
+03-28 01:20:49.676  3258  5202 D BroadcastQueue: Add broadcast <BroadcastRecord{1f12f4d u0 android.intent.action.PACKAGE_RESTARTED}> into [parallel | background], pending size 0
+03-28 01:20:49.676  3469  7840 D EmBootNetService: forceStopPackage:  com.iodvd.stviewer
+03-28 01:20:49.681  3258  3277 D BroadcastQueue: Done with parallel broadcast [background] [BroadcastRecord{1f12f4d u0 android.intent.action.PACKAGE_RESTARTED}]
+03-28 01:20:49.686  3431  3431 D CarrierSvcBindHelper: No carrier app for: 0
+03-28 01:20:49.758  3782  3823 I CPVoiceAgent: select: retrun 0
+03-28 01:20:49.771  3469  7840 D EmBootNetService: mTmpinfo.packageName:com.iodvd.stviewer stop:false
+03-28 01:20:49.773  3258 29739 I ActivityManager: Force stopping com.iodvd.stviewer appid=10088 user=0: from pid 3469
+03-28 01:20:49.776  3258 29739 D BroadcastQueue: Add broadcast <BroadcastRecord{2a8ca02 u0 android.intent.action.PACKAGE_RESTARTED}> into [parallel | background], pending size 0
+03-28 01:20:49.776  3469  7840 D EmBootNetService: forceStopPackage:  com.iodvd.stviewer
+03-28 01:20:49.780  3258  3277 D BroadcastQueue: Done with parallel broadcast [background] [BroadcastRecord{2a8ca02 u0 android.intent.action.PACKAGE_RESTARTED}]
+03-28 01:20:49.785  3431  3431 D CarrierSvcBindHelper: No carrier app for: 0
+03-28 01:20:49.871  3469  7840 D EmBootNetService: mTmpinfo.packageName:com.iodvd.stviewer stop:false
+03-28 01:20:49.875  3258  5202 I ActivityManager: Force stopping com.iodvd.stviewer appid=10088 user=0: from pid 3469
+03-28 01:20:49.878  3258  5202 D BroadcastQueue: Add broadcast <BroadcastRecord{ef6cf13 u0 android.intent.action.PACKAGE_RESTARTED}> into [parallel | background], pending size 0
+03-28 01:20:49.879  3469  7840 D EmBootNetService: forceStopPackage:  com.iodvd.stviewer
+03-28 01:20:49.885  3258  3277 D BroadcastQueue: Done with parallel broadcast [background] [BroadcastRecord{ef6cf13 u0 android.intent.action.PACKAGE_RESTARTED}]
+03-28 01:20:49.887  3431  3431 D CarrierSvcBindHelper: No carrier app for: 0
+03-28 01:20:49.971  3469  7840 D EmBootNetService: mTmpinfo.packageName:com.iodvd.stviewer stop:false
+03-28 01:20:49.974  3258 29739 I ActivityManager: Force stopping com.iodvd.stviewer appid=10088 user=0: from pid 3469
+03-28 01:20:49.978  3258 29739 D BroadcastQueue: Add broadcast <BroadcastRecord{de02550 u0 android.intent.action.PACKAGE_RESTARTED}> into [parallel | background], pending size 0
+03-28 01:20:49.979  3469  7840 D EmBootNetService: forceStopPackage:  com.iodvd.stviewer
+03-28 01:20:49.984  3258  3277 D BroadcastQueue: Done with parallel broadcast [background] [BroadcastRecord{de02550 u0 android.intent.action.PACKAGE_RESTARTED}]
+03-28 01:20:49.987  3431  3431 D CarrierSvcBindHelper: No carrier app for: 0
+03-28 01:20:50.070  3469  7840 D EmBootNetService: mTmpinfo.packageName:com.iodvd.stviewer stop:false
+03-28 01:20:50.074  3258  5202 I ActivityManager: Force stopping com.iodvd.stviewer appid=10088 user=0: from pid 3469
+03-28 01:20:50.077  3258  5202 D BroadcastQueue: Add broadcast <BroadcastRecord{fae7349 u0 android.intent.action.PACKAGE_RESTARTED}> into [parallel | background], pending size 0
+03-28 01:20:50.078  3469  7840 D EmBootNetService: forceStopPackage:  com.iodvd.stviewer
+03-28 01:20:50.084  3258  3277 D BroadcastQueue: Done with parallel broadcast [background] [BroadcastRecord{fae7349 u0 android.intent.action.PACKAGE_RESTARTED}]
+03-28 01:20:50.088  3431  3431 D CarrierSvcBindHelper: No carrier app for: 0
+03-28 01:20:49.982  3258  3258 I chatty  : uid=1000 system_server identical 5 lines
+03-28 01:20:50.082  3258  3258 I notification_cancel_all: [1000,3258,com.iodvd.stviewer,0,0,0,5,NULL]
+03-28 01:20:50.090  7622  7622 I auditd  : type=1400 audit(0.0:14690): avc: denied { search } for comm="process-tracker" name="2906" dev="proc" ino=8042 scontext=u:r:su:s0 tcontext=u:r:zygote:s0 tclass=dir permissive=1
+03-28 01:20:50.090  7622  7622 I process-tracker: type=1400 audit(0.0:14690): avc: denied { search } for name="2906" dev="proc" ino=8042 scontext=u:r:su:s0 tcontext=u:r:zygote:s0 tclass=dir permissive=1
+03-28 01:20:50.090  7622  7622 I auditd  : type=1400 audit(0.0:14691): avc: denied { read } for comm="process-tracker" name="cmdline" dev="proc" ino=363067 scontext=u:r:su:s0 tcontext=u:r:zygote:s0 tclass=file permissive=1
+03-28 01:20:50.090  7622  7622 I process-tracker: type=1400 audit(0.0:14691): avc: denied { read } for name="cmdline" dev="proc" ino=363067 scontext=u:r:su:s0 tcontext=u:r:zygote:s0 tclass=file permissive=1
+03-28 01:20:50.090  7622  7622 I auditd  : type=1400 audit(0.0:14692): avc: denied { open } for comm="process-tracker" path="/proc/2906/cmdline" dev="proc" ino=363067 scontext=u:r:su:s0 tcontext=u:r:zygote:s0 tclass=file permissive=1
+03-28 01:20:50.090  7622  7622 I process-tracker: type=1400 audit(0.0:14692): avc: denied { open } for path="/proc/2906/cmdline" dev="proc" ino=363067 scontext=u:r:su:s0 tcontext=u:r:zygote:s0 tclass=file permissive=1
+03-28 01:20:50.171  3258  5202 I am_uid_stopped: 10083
+03-28 01:20:50.171  3258  5202 I ActivityManager: Killing 6115:com.chartcross.gpstest/u0a83 (adj 800): kill background
+03-28 01:20:50.171  3258  5202 I am_kill : [0,6115,com.chartcross.gpstest,800,kill background]
+03-28 01:20:50.173  3258  3279 W system_server: kill(-6115, 9) failed: No such process
+03-28 01:20:50.181  3258  5202 I am_destroy_service: [0,51864469,6200]
+03-28 01:20:50.182  6200  6200 I cr_ChildProcessService: Destroying ChildProcessService pid=6200
+03-28 01:20:50.187  3258  5202 I ActivityManager: Killing 6200:com.google.android.webview:sandboxed_process0/u0a83i7 (adj 0): isolated not needed
+03-28 01:20:50.187  3258  5202 I am_kill : [0,6200,com.google.android.webview:sandboxed_process0,0,isolated not needed]
+03-28 01:20:50.193  3258  3651 D PowerController.AppState: - reportAppProcStateInfo() E -
+03-28 01:20:50.194  3258  5202 I ActivityManager: Force stopping com.chartcross.gpstest appid=10083 user=0: from pid 3469
+03-28 01:20:50.194  3258  3654 D PowerController.RecogA: handleMessage(MSG_REPORT_EVENT)
+03-28 01:20:50.197  3258  5202 D BroadcastQueue: Add broadcast <BroadcastRecord{7dd844e u0 android.intent.action.PACKAGE_RESTARTED}> into [parallel | background], pending size 0
+03-28 01:20:50.199  3469  7840 D EmBootNetService: forceStopPackage:  com.chartcross.gpstest
+03-28 01:20:50.200  3258  3258 I notification_cancel_all: [1000,3258,com.chartcross.gpstest,0,0,0,5,NULL]
+03-28 01:20:50.202  3258  3277 D BroadcastQueue: Done with parallel broadcast [background] [BroadcastRecord{7dd844e u0 android.intent.action.PACKAGE_RESTARTED}]
+03-28 01:20:50.207  3431  3431 D CarrierSvcBindHelper: No carrier app for: 0
+03-28 01:20:50.211  3258 20019 I am_proc_died: [0,6200,com.google.android.webview:sandboxed_process0,0,11]
+03-28 01:20:50.211  3258 20019 I am_uid_stopped: 99007
+03-28 01:20:50.211  3258  3279 W system_server: kill(-6115, 9) failed: No such process
+03-28 01:20:50.222  3258  3290 D KernelUidCpuTimeReader: Removing uids 99007-99007
+03-28 01:20:50.251  3258  3279 W system_server: kill(-6115, 9) failed: No such process
+03-28 01:20:50.270  3469  7840 D EmBootNetService: mTmpinfo.packageName:com.chartcross.gpstest stop:false
+03-28 01:20:50.273  3258 20019 I ActivityManager: Force stopping com.chartcross.gpstest appid=10083 user=0: from pid 3469
+03-28 01:20:50.276  3258 20019 D BroadcastQueue: Add broadcast <BroadcastRecord{9f5496f u0 android.intent.action.PACKAGE_RESTARTED}> into [parallel | background], pending size 0
+03-28 01:20:50.276  3469  7840 D EmBootNetService: forceStopPackage:  com.chartcross.gpstest
+03-28 01:20:50.279  3258  3258 I notification_cancel_all: [1000,3258,com.chartcross.gpstest,0,0,0,5,NULL]
+03-28 01:20:50.282  3258  3277 D BroadcastQueue: Done with parallel broadcast [background] [BroadcastRecord{9f5496f u0 android.intent.action.PACKAGE_RESTARTED}]
+03-28 01:20:50.284  3431  3431 D CarrierSvcBindHelper: No carrier app for: 0
+03-28 01:20:50.291  3258  3279 W system_server: kill(-6115, 9) failed: No such process
+03-28 01:20:50.299  3258  5773 D GnssStatusListenerHelper: Remote Listener died: android.location.IGnssStatusListener$Stub$Proxy@de1fb05
+03-28 01:20:50.299  3258  3624 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=110, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND] ], android.os.BinderProxy@4aa467c)
+03-28 01:20:50.299  3258 29739 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ TRACK_DEFAULT id=107, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ], android.os.BinderProxy@e91975a)
+03-28 01:20:50.299  2924  3368 D sensor  : activate handle=5; drv=2
+03-28 01:20:50.299  2924  3368 D sensor  : GyroSensor: handle=5,enabled=0
+03-28 01:20:50.299  2924  3368 E sensor  : SensorBase: write_attr failed to open /sys/class/input/input1/gyro_enable (No such file or directory)
+03-28 01:20:50.299  2924  3368 D sensor  : GyroSensor: mEnabled = 0
+03-28 01:20:50.299  3258  5740 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=109, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND] ], android.os.BinderProxy@9b70d8b)
+03-28 01:20:50.300  3258  7739 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ TRACK_DEFAULT id=108, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ], android.os.BinderProxy@d934e68)
+03-28 01:20:50.301  3258  3406 D ConnectivityService: releasing NetworkRequest [ LISTEN id=110, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND] ] (release request)
+03-28 01:20:50.301  3258  3406 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=107, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] (release request)
+03-28 01:20:50.302  3258  3406 D ConnectivityService:  Removing from current network NetworkAgentInfo [WIFI () - 106], leaving 21 requests.
+03-28 01:20:50.303  3258  3295 W ActivityManager: setHasOverlayUi called on unknown pid: 6115
+03-28 01:20:50.303  3431  3431 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:50.303  3431  3431 D PhoneSwitcher: evaluating due to netReleased
+03-28 01:20:50.304  3258  3406 D ConnectivityService: releasing NetworkRequest [ LISTEN id=109, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND] ] (release request)
+03-28 01:20:50.304  3258  3406 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=108, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] (release request)
+03-28 01:20:50.305  3258  3406 D ConnectivityService:  Removing from current network NetworkAgentInfo [WIFI () - 106], leaving 19 requests.
+03-28 01:20:50.306  3431  3431 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:50.306  3431  3431 D PhoneSwitcher: evaluating due to netReleased
+03-28 01:20:50.331  3258  3279 W system_server: kill(-6115, 9) failed: No such process
+03-28 01:20:50.331  3258  3279 I system_server: Successfully killed process cgroup uid 10083 pid 6115 in 158ms
+03-28 01:20:50.332  3258  3279 W system_server: Failed to open process cgroup uid 99007 pid 6200: No such file or directory
+03-28 01:20:50.332  3258  3279 E system_server: Error encountered killing process cgroup uid 99007 pid 6200: No such file or directory
+03-28 01:20:50.353  3306  3335 D RIL     : rxlev[0]=99, rscp[0]=255, rsrp[0]=95
+03-28 01:20:50.353  3306  3335 D RILC    : currentSignalStrengthInd
+03-28 01:20:50.353  3306  3335 I RILC    : RIL_SOCKET_1 UNSOLICITED: UNSOL_SIGNAL_STRENGTH length:56
+03-28 01:20:50.355  3431  3741 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:50.357  3258  4019 I WifiService: getConnectionInfo uid=10087
+03-28 01:20:50.370  3469  7840 D EmBootNetService: mTmpinfo.packageName:com.chartcross.gpstest stop:false
+03-28 01:20:50.375  3258  4019 I ActivityManager: Force stopping com.chartcross.gpstest appid=10083 user=0: from pid 3469
+03-28 01:20:50.379  3258  4019 D BroadcastQueue: Add broadcast <BroadcastRecord{60c4281 u0 android.intent.action.PACKAGE_RESTARTED}> into [parallel | background], pending size 0
+03-28 01:20:50.380  3469  7840 D EmBootNetService: forceStopPackage:  com.chartcross.gpstest
+03-28 01:20:50.385  3258  3277 D BroadcastQueue: Done with parallel broadcast [background] [BroadcastRecord{60c4281 u0 android.intent.action.PACKAGE_RESTARTED}]
+03-28 01:20:50.387  3431  3431 D CarrierSvcBindHelper: No carrier app for: 0
+03-28 01:20:50.470  3469  7840 D EmBootNetService: mTmpinfo.packageName:com.chartcross.gpstest stop:false
+03-28 01:20:50.474  3258  4019 I ActivityManager: Force stopping com.chartcross.gpstest appid=10083 user=0: from pid 3469
+03-28 01:20:50.478  3258  4019 D BroadcastQueue: Add broadcast <BroadcastRecord{41cf26 u0 android.intent.action.PACKAGE_RESTARTED}> into [parallel | background], pending size 0
+03-28 01:20:50.478  3469  7840 D EmBootNetService: forceStopPackage:  com.chartcross.gpstest
+03-28 01:20:50.484  3258  3277 D BroadcastQueue: Done with parallel broadcast [background] [BroadcastRecord{41cf26 u0 android.intent.action.PACKAGE_RESTARTED}]
+03-28 01:20:50.488  3431  3431 D CarrierSvcBindHelper: No carrier app for: 0
+03-28 01:20:50.383  3258  3258 I chatty  : uid=1000 system_server identical 1 line
+03-28 01:20:50.483  3258  3258 I notification_cancel_all: [1000,3258,com.chartcross.gpstest,0,0,0,5,NULL]
+03-28 01:20:50.530 11536 11536 I auditd  : type=1400 audit(0.0:14694): avc: denied { use } for comm="JDWP" path="socket:[485700]" dev="sockfs" ino=485700 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:r:su:s0 tclass=fd permissive=1
+03-28 01:20:50.530 11536 11536 I JDWP    : type=1400 audit(0.0:14694): avc: denied { use } for path="socket:[485700]" dev="sockfs" ino=485700 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:r:su:s0 tclass=fd permissive=1
+03-28 01:20:50.530 11536 11536 I auditd  : type=1400 audit(0.0:14695): avc: denied { read write } for comm="JDWP" path="socket:[485700]" dev="sockfs" ino=485700 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:r:su:s0 tclass=unix_stream_socket permissive=1
+03-28 01:20:50.530 11536 11536 I JDWP    : type=1400 audit(0.0:14695): avc: denied { read write } for path="socket:[485700]" dev="sockfs" ino=485700 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:r:su:s0 tclass=unix_stream_socket permissive=1
+03-28 01:20:50.536 11536 11543 I /system/bin/webview_zygote32: Debugger is no longer active
+03-28 01:20:50.555  3258  3376 D AlarmManager: waitForAlarm result:4currentTime=1774671650555, elapsedRealtime=89356144
+03-28 01:20:50.555  3258  3376 D AlarmManager: triggerList.size = 2, hasWakeup = true
+03-28 01:20:50.555  3258  3376 D AlarmManagerService: set alarm to kernel: 89366.955000000, type=2 
+03-28 01:20:50.556  3258  3376 D AlarmManagerService: set alarm to kernel: 89365.589000000, type=3 
+03-28 01:20:50.556  3258  3376 V AlarmManager: sending alarm Alarm{686f767 type 0 when 1774671646421 com.urbetrack.sweeptracker}
+03-28 01:20:50.557  3258  3376 V AlarmManager: sending alarm Alarm{782e914 type 3 when 89356144 android}
+03-28 01:20:50.557  3258  3376 D BroadcastQueue: Add broadcast <BroadcastRecord{f3985bd u0 com.android.server.powercontroller.CHECK_APPSTATE}> into [ordered | background], pending size 0
+03-28 01:20:50.557  3258  3376 D BroadcastQueue: Header is BroadcastRecord{f3985bd u0 com.android.server.powercontroller.CHECK_APPSTATE} now
+03-28 01:20:50.560  6798  6798 D LocationService: 2026-03-28T04:20:50.559Z: onStartCommand: Received ACTION_START_WINDOW alarm
+03-28 01:20:50.561  3258  3258 D BroadcastQueue: Finished with ordered broadcast BroadcastRecord{f3985bd u0 com.android.server.powercontroller.CHECK_APPSTATE} receivers:(1) take 1ms in [background], remains 0
+03-28 01:20:50.561  3258  3651 V AlarmManager: set(PendingIntent{21c4d60: PendingIntentRecord{de06219 android broadcastIntent}}) : type=3 triggerAtTime=89656149 win=225000 tElapsed=89656149 maxElapsed=89881149 interval=0 flags=0x8
+03-28 01:20:50.564  6798  6798 D LocationService: 2026-03-28T04:20:50.562Z: getLocationInterval: source=USB, plugged=false, interval=15s
+03-28 01:20:50.566  6798  6798 D LocationService: 2026-03-28T04:20:50.565Z: safeStartNewWindow depth=1 interval=15000ms
+03-28 01:20:50.570  3469  7840 D EmBootNetService: mTmpinfo.packageName:com.chartcross.gpstest stop:false
+03-28 01:20:50.571  6798  6798 D LocationService: 2026-03-28T04:20:50.570Z: Attempting to start location window, interval=15000ms, mutex=false
+03-28 01:20:50.574  6798  6798 D LocationService: 2026-03-28T04:20:50.573Z: Location window starting, interval=15000ms, mutex=true
+03-28 01:20:50.575  3258  4019 I ActivityManager: Force stopping com.chartcross.gpstest appid=10083 user=0: from pid 3469
+03-28 01:20:50.577  6798  6798 D LocationService: 2026-03-28T04:20:50.576Z: Location window setup complete, releasing mutex, interval=15000ms, mutex=true
+03-28 01:20:50.579  3258  4019 D BroadcastQueue: Add broadcast <BroadcastRecord{f6bb7b2 u0 android.intent.action.PACKAGE_RESTARTED}> into [parallel | background], pending size 0
+03-28 01:20:50.579  3469  7840 D EmBootNetService: forceStopPackage:  com.chartcross.gpstest
+03-28 01:20:50.582  6798  6798 D LocationService: 2026-03-28T04:20:50.581Z: buildLocationRequest: batterySaving=false, priority=100, interval=15000ms, minUpdate=2000ms, window=15000ms
+03-28 01:20:50.583  3258  3258 I notification_cancel_all: [1000,3258,com.chartcross.gpstest,0,0,0,5,NULL]
+03-28 01:20:50.586  6798  6798 D LocationService: 2026-03-28T04:20:50.585Z: GPS high-accuracy session started
+03-28 01:20:50.588  6798  6798 D LocationService: 2026-03-28T04:20:50.587Z: Window#15 started: method=GPS, interval=15000ms, priority=100, callback=19013120
+03-28 01:20:50.589  3258  3277 D BroadcastQueue: Done with parallel broadcast [background] [BroadcastRecord{f6bb7b2 u0 android.intent.action.PACKAGE_RESTARTED}]
+03-28 01:20:50.591  3431  3431 D CarrierSvcBindHelper: No carrier app for: 0
+03-28 01:20:50.597  3258  4018 D BroadcastQueue: Add broadcast <BroadcastRecord{881a303 u0 android.location.HIGH_POWER_REQUEST_CHANGE}> into [parallel | background], pending size 0
+03-28 01:20:50.598  3258  3277 D BroadcastQueue: Done with parallel broadcast [background] [BroadcastRecord{881a303 u0 android.location.HIGH_POWER_REQUEST_CHANGE}]
+03-28 01:20:50.601  3258  3654 D PowerController.RecogA: handleMessage(MSG_REPORT_EVENT)
+03-28 01:20:50.602  3258  4018 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@6d99cfe)
+03-28 01:20:50.602  3007  3007 E LIBGPS  : agps data will not send,for gps is close
+03-28 01:20:50.603  3007  3007 E LIBGPS  : xml mode is msb
+03-28 01:20:50.603  3007  3007 E LIBGPS  : note:set mode from framwork is not equel xml set!
+03-28 01:20:50.603  3007  3007 D LCS_MGT : [MGT_execute]: recv instr(0xe108) of domain 'UP(0x01)' sid(200) from GNSS!
+03-28 01:20:50.603  3007  3007 D LCS_MGT : [LCSMGT_getDomain]: LCS supported domain is 'UP|CP(0x03)'
+03-28 01:20:50.603  3007  3007 D LCS_MGT : [MGT_execute]: executing instr 'LCS_INSTR_SET_POS_METHOD(0xe108)' of domain 'UP(0x01)'
+03-28 01:20:50.603  3007  3007 D LCS_MGT : [UPINSTR_execSetPosMethod]: Entry point
+03-28 01:20:50.603  3007  3007 D LCS_MGT : [LCSMGT_sendAsyncEvent]: send event(0xa109), body maxsize(4)
+03-28 01:20:50.603  3007  3007 D LCS_MGT : LCSMGT Version:AGNSS_W24.33.2_V18.5.3, android:V8.1.0(64bit), gcc:V4.2.1 Compatible Android Clang 5.0.300080 , build time:Aug 13 2024, 16:40:36
+03-28 01:20:50.603  3007  3007 D LCS_MGT : [INSTR_encapSetPosMethod]: Entry point
+03-28 01:20:50.603  3007  3590 D LCS_MGT : [LCSMGT_recvMBoxEvents]: recv event(0xa109)
+03-28 01:20:50.603  3007  3590 D LCS_MGT : [UPEVT_recvSetPosMethod]: Entry point
+03-28 01:20:50.603  3007  3590 D LCS_UP  : enter supl_RXN_setPosMode, setted posMode=1(2:MSA, 1:MSB, 0: standlone GPS)
+03-28 01:20:50.603  3007  3638 D LCS_UP  : enter supl_handleNormalMsg
+03-28 01:20:50.603  3007  3638 D LCS_UP  : [supl_handleNormalMsg]: receive mbox msg(0x1001)
+03-28 01:20:50.603  3007  3638 D LCS_UP  : supl_SessionRunning result 0 index 6
+03-28 01:20:50.604  3007  3638 D LCS_UP  : enter supl_setPosMode, isSessionRunning=0, pMsg->aPosMethod=1
+03-28 01:20:50.604  3007  3007 E LIBGPS  : LIBGPS_W20.40.2_V1.6.1 Version:64bit, gcc:V4.2.1 Compatible Android Clang 5.0.300080 , build time:Jan 20 2026, 23:16:45
+03-28 01:20:50.604  3007  3638 D LCS_UP  : supl_setPosMode:set postionMode = MSB
+03-28 01:20:50.604  3007  3638 D LCS_UP  : enter supl_handleNetworkOrSETCapChange
+03-28 01:20:50.604  3007  3638 D LCS_UP  : enter supl_handleTlsRpt
+03-28 01:20:50.605  3007  3627 I GnssHAL_AGnssInterfaceExt: updateWakelock: GNSS HAL Wakelock acquired due to gps: 1, fused: 0
+03-28 01:20:50.605  3007  3627 E LIBGPS  : size is 1343
+03-28 01:20:50.605  3258  3276 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@6d99cfe)
+03-28 01:20:50.621  3258  4019 V AlarmManager: set(PendingIntent{1ae8b0a: PendingIntentRecord{96a6f7b com.google.android.gms broadcastIntent}}) : type=2 triggerAtTime=89386188 win=0 tElapsed=89386188 maxElapsed=89386188 interval=0 flags=0x5
+03-28 01:20:50.622  9831  9903 I ActivityScheduler: nextTriggerTime: 89517682, in 161472ms, detectorType: 39, FULL_TYPE alarmWindowMillis: 10000
+03-28 01:20:50.622  3258  4019 V AlarmManager: set(PendingIntent{46b2198: PendingIntentRecord{960be41 com.google.android.gms broadcastIntent}}) : type=2 triggerAtTime=89517682 win=10000 tElapsed=89517682 maxElapsed=89527682 interval=0 flags=0x0
+03-28 01:20:50.623  3258  4019 V AlarmManager: remove(operation) changed bounds; rebatching
+03-28 01:20:50.626  3258  4019 I WifiService: getWifiEnabledState uid=10014
+03-28 01:20:50.626  9831  9903 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+03-28 01:20:50.628  3258  7739 D BroadcastQueue: Add broadcast <BroadcastRecord{969cdf1 u0 android.location.HIGH_POWER_REQUEST_CHANGE}> into [parallel | background], pending size 0
+03-28 01:20:50.628  3258  3277 D BroadcastQueue: Done with parallel broadcast [background] [BroadcastRecord{969cdf1 u0 android.location.HIGH_POWER_REQUEST_CHANGE}]
+03-28 01:20:50.630  3258  3654 D PowerController.RecogA: handleMessage(MSG_REPORT_EVENT)
+03-28 01:20:50.631  3258  4019 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@8324dd6)
+03-28 01:20:50.631  3258  3276 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@8324dd6)
+03-28 01:20:50.636  3553  3553 D wpa_supplicant: nl80211: Ignored event (cmd=33) for foreign interface (ifindex 14 wdev 0x0)
+03-28 01:20:50.636  3553  3553 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+03-28 01:20:50.636  3553  3553 D wpa_supplicant: wlan0: nl80211: Scan trigger
+03-28 01:20:50.636  3553  3553 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+03-28 01:20:50.636  3553  3553 D wpa_supplicant: wlan0: External program started a scan
+03-28 01:20:50.630  3258  3654 D PowerController.RecogA: handleMessage(MSG_REPORT_EVENT)
+03-28 01:20:50.636  3258  3403 V AlarmManager: set(null) : type=2 triggerAtTime=89371224 win=11250 tElapsed=89371224 maxElapsed=89382474 interval=0 flags=0x8
+03-28 01:20:50.636  3258  3403 D AlarmManagerService: set alarm to kernel: 89371.224000000, type=2 
+03-28 01:20:50.357  3431  3741 I chatty  : uid=1001(radio) Binder:3431_5 identical 1 line
+03-28 01:20:50.367  3431  3741 D SubscriptionController: [getDefaultDataSubId] subId= 1
+03-28 01:20:50.642  3431  3812 D RILJ    : [8715]> RIL_REQUEST_GET_CELL_INFO_LIST [SUB0]
+03-28 01:20:50.642  3306  3306 D RILC    : getCellInfoList: serial 5067
+03-28 01:20:50.643  3306  3536 D RIL     : onRequest: GET_CELL_INFO_LIST radioState=4
+03-28 01:20:50.643  3306  3536 D REQ_THDS: get Channel1
+03-28 01:20:50.645  3306  3536 D RILC    : RequestComplete, RIL_SOCKET_1
+03-28 01:20:50.645  3306  3536 E RILC    : Calling responseFunction() for token 5067
+03-28 01:20:50.645  3306  3536 D RILC    : getCellInfoListResponse: serial 5067
+03-28 01:20:50.645  3306  3536 D REQ_THDS: put Channel1
+03-28 01:20:50.645  3306  3536 I REQ_THDS: -->CommandThread [3536] free one command
+03-28 01:20:50.646  3431  3525 D RILJ    : [8715]< RIL_REQUEST_GET_CELL_INFO_LIST [CellInfoLte:{mRegistered=YES mTimeStampType=oem_ril mTimeStamp=49164734425103ns CellIdentityLte:{ mMcc=722 mMnc=34 mCi=213908387 mPci=502 mTac=1866 mEarfcn=2225} CellSignalStrengthLte: ss=46 rsrp=-94 rsrq=-8 rssnr=2147483647 cqi=2147483647 ta=2147483647}, CellInfoLte:{mRegistered=NO mTimeStampType=oem_ril mTimeStamp=2147483647ns CellIdentityLte:{ mMcc=2147483647 mMnc=2147483647 mCi=2147483647 mPci=502 mTac=2147483647 mEarfcn=2225} CellSignalStrengthLte: ss=45 rsrp=-95 rsrq=-10 rssnr=2147483647 cqi=2147483647 ta=2147483647}, CellInfoLte:{mRegistered=NO mTimeStampType=oem_ril mTimeStamp=2147483647ns CellIdentityLte:{ mMcc=2147483647 mMnc=2147483647 mCi=2147483647 mPci=321 mTac=2147483647 mEarfcn=2225} CellSignalStrengthLte: ss=38 rsrp=-102 rsrq=-13 rssnr=2147483647 cqi=2147483647 ta=2147483647}] [SUB0]
+03-28 01:20:50.670  3469  7840 D EmBootNetService: mTmpinfo.packageName:com.chartcross.gpstest stop:false
+03-28 01:20:50.675  3258  4018 I ActivityManager: Force stopping com.chartcross.gpstest appid=10083 user=0: from pid 3469
+03-28 01:20:50.678  3258  4018 D BroadcastQueue: Add broadcast <BroadcastRecord{aa68857 u0 android.intent.action.PACKAGE_RESTARTED}> into [parallel | background], pending size 0
+03-28 01:20:50.679  3469  7840 D EmBootNetService: forceStopPackage:  com.chartcross.gpstest
+03-28 01:20:50.684  3258  3277 D BroadcastQueue: Done with parallel broadcast [background] [BroadcastRecord{aa68857 u0 android.intent.action.PACKAGE_RESTARTED}]
+03-28 01:20:50.687  3431  3431 D CarrierSvcBindHelper: No carrier app for: 0
+03-28 01:20:50.771  3469  7840 D EmBootNetService: mTmpinfo.packageName:com.chartcross.gpstest stop:false
+03-28 01:20:50.776  3258  4018 I ActivityManager: Force stopping com.chartcross.gpstest appid=10083 user=0: from pid 3469
+03-28 01:20:50.780  3258  4018 D BroadcastQueue: Add broadcast <BroadcastRecord{bcbf44 u0 android.intent.action.PACKAGE_RESTARTED}> into [parallel | background], pending size 0
+03-28 01:20:50.782  3469  7840 D EmBootNetService: forceStopPackage:  com.chartcross.gpstest
+03-28 01:20:50.788  3258  3277 D BroadcastQueue: Done with parallel broadcast [background] [BroadcastRecord{bcbf44 u0 android.intent.action.PACKAGE_RESTARTED}]
+03-28 01:20:50.790  3431  3431 D CarrierSvcBindHelper: No carrier app for: 0
+03-28 01:20:50.832  3007  3626 E LIBGPS  : getresponse subtype is 1
+03-28 01:20:50.832  3007  3626 E LIBGPS  : size is 1343
+03-28 01:20:50.832  3007  3626 E LIBGPS  : get val is GPS_GLO GNSS_17A_W19.37.4 GE2-AA
+03-28 01:20:50.833  3007  3626 E LIBGPS  : size is 1343
+03-28 01:20:50.833  3007  3626 E LIBGPS  : size is 1343
+03-28 01:20:50.833  3007  3627 E LIBGPS  : GNSS STATE :GE2 CP IDLED, should not set: GE2 CP IDLED
+03-28 01:20:50.833  3007  3627 E LIBGPS  : size is 1343
+03-28 01:20:50.843  3007  3627 E LIBGPS  : ephemeris is too old
+03-28 01:20:50.844  3007  3627 I chatty  : uid=1000(system) libgps_daemon identical 3 lines
+03-28 01:20:50.844  3007  3627 E LIBGPS  : ephemeris is too old
+03-28 01:20:50.871  3469  7840 D EmBootNetService: mTmpinfo.packageName:com.chartcross.gpstest stop:false
+03-28 01:20:50.874  3258  4019 I ActivityManager: Force stopping com.chartcross.gpstest appid=10083 user=0: from pid 3469
+03-28 01:20:50.877  3258  4019 D BroadcastQueue: Add broadcast <BroadcastRecord{53c582d u0 android.intent.action.PACKAGE_RESTARTED}> into [parallel | background], pending size 0
+03-28 01:20:50.878  3469  7840 D EmBootNetService: forceStopPackage:  com.chartcross.gpstest
+03-28 01:20:50.883  3258  3277 D BroadcastQueue: Done with parallel broadcast [background] [BroadcastRecord{53c582d u0 android.intent.action.PACKAGE_RESTARTED}]
+03-28 01:20:50.887  3431  3431 D CarrierSvcBindHelper: No carrier app for: 0
+03-28 01:20:50.971  3469  7840 D EmBootNetService: mTmpinfo.packageName:com.chartcross.gpstest stop:false
+03-28 01:20:50.975  3258  4018 I ActivityManager: Force stopping com.chartcross.gpstest appid=10083 user=0: from pid 3469
+03-28 01:20:50.980  3258  4018 D BroadcastQueue: Add broadcast <BroadcastRecord{d5d7162 u0 android.intent.action.PACKAGE_RESTARTED}> into [parallel | background], pending size 0
+03-28 01:20:50.981  3469  7840 D EmBootNetService: forceStopPackage:  com.chartcross.gpstest
+03-28 01:20:50.988  3258  3277 D BroadcastQueue: Done with parallel broadcast [background] [BroadcastRecord{d5d7162 u0 android.intent.action.PACKAGE_RESTARTED}]
+03-28 01:20:50.994  3431  3431 D CarrierSvcBindHelper: No carrier app for: 0
+03-28 01:20:51.058  3007  3627 E LIBGPS  : size is 1343
+03-28 01:20:51.058  3007  3627 I chatty  : uid=1000(system) libgps_daemon identical 3 lines
+03-28 01:20:51.058  3007  3627 E LIBGPS  : size is 1343
+03-28 01:20:51.070  3469  7840 D EmBootNetService: mTmpinfo.packageName:com.chartcross.gpstest stop:false
+03-28 01:20:51.075  3258  7739 I ActivityManager: Force stopping com.chartcross.gpstest appid=10083 user=0: from pid 3469
+03-28 01:20:51.079  3258  7739 D BroadcastQueue: Add broadcast <BroadcastRecord{d2152f3 u0 android.intent.action.PACKAGE_RESTARTED}> into [parallel | background], pending size 0
+03-28 01:20:51.080  3469  7840 D EmBootNetService: forceStopPackage:  com.chartcross.gpstest
+03-28 01:20:51.087  3258  3277 D BroadcastQueue: Done with parallel broadcast [background] [BroadcastRecord{d2152f3 u0 android.intent.action.PACKAGE_RESTARTED}]
+03-28 01:20:51.088  3431  3431 D CarrierSvcBindHelper: No carrier app for: 0
+03-28 01:20:50.986  3258  3258 I chatty  : uid=1000 system_server identical 4 lines
+03-28 01:20:51.084  3258  3258 I notification_cancel_all: [1000,3258,com.chartcross.gpstest,0,0,0,5,NULL]
+03-28 01:20:51.090  7622  7622 I auditd  : type=1400 audit(0.0:14696): avc: denied { search } for comm="process-tracker" name="7864" dev="proc" ino=483989 scontext=u:r:su:s0 tcontext=u:r:kernel:s0 tclass=dir permissive=1
+03-28 01:20:51.090  7622  7622 I process-tracker: type=1400 audit(0.0:14696): avc: denied { search } for name="7864" dev="proc" ino=483989 scontext=u:r:su:s0 tcontext=u:r:kernel:s0 tclass=dir permissive=1
+03-28 01:20:51.096  3007  3626 E LIBGPS  : agps aiding data received
+03-28 01:20:51.096  3007  3626 E LIBGPS  : assist request flag invalid
+03-28 01:20:51.096  3007  3626 E LIBGPS  : send agps cmd to server
+03-28 01:20:51.170  3469  7840 D EmBootNetService: forceStopPackage finish 
+03-28 01:20:51.195  2936  3131 D ENGPC   : parse_event: event { 'change', '/devices/platform/battery/power_supply/battery', 'power_supply', '' }
+03-28 01:20:51.195  3006  3071 I ThermalChargeDetect: charge status: Full
+03-28 01:20:51.199  3258  3258 D BroadcastQueue: Add broadcast <BroadcastRecord{9688bb0 u-1 android.intent.action.BATTERY_CHANGED}> into [parallel | background], pending size 0
+03-28 01:20:51.201  3258  3651 D PowerController: updatePowerSaveMode(), set to MODECONFIG_USER
+03-28 01:20:51.202  3431  3431 D DctEx   : [0]onReceive() action=android.intent.action.BATTERY_CHANGED
+03-28 01:20:51.202  3258  3651 D PowerController: isInVideoCallOrNormalCall:mModeConfigIndex:2,preModeConfigIndex = 2
+03-28 01:20:51.202  3258  3651 D PowerController: updatePowerSaveModeInternal(), no change, return true
+03-28 01:20:51.204  3258  3277 D BroadcastQueue: Done with parallel broadcast [background] [BroadcastRecord{9688bb0 u-1 android.intent.action.BATTERY_CHANGED}]
+03-28 01:20:51.204  3469  3469 D BatteryMeterDrawable: onBatteryLevelChanged level=100,pluggedIn=true,charging=true
+03-28 01:20:51.206  3469  3469 D PowerUI : buckets   .....0 .. 0 .. 0
+03-28 01:20:51.206  3469  3469 D PowerUI : level          100 --> 100
+03-28 01:20:51.206  3469  3469 D PowerUI : status         5 --> 5
+03-28 01:20:51.206  3469  3469 D PowerUI : plugType       2 --> 2
+03-28 01:20:51.206  3469  3469 D PowerUI : invalidCharger 0 --> 0
+03-28 01:20:51.206  3469  3469 D PowerUI : bucket         1 --> 1
+03-28 01:20:51.206  3469  3469 D PowerUI : plugged        true --> true
+03-28 01:20:51.206  3469  3469 D PowerUI : health         2 --> 2
+03-28 01:20:51.204  3469  3469 I chatty  : uid=10030(com.android.systemui) identical 1 line
+03-28 01:20:51.205  3469  3469 D BatteryMeterDrawable: onBatteryLevelChanged level=100,pluggedIn=true,charging=true
+03-28 01:20:51.206  6798  6798 D BatteryObserver: 2026-03-28T04:20:51.205Z: [id=1] ACTION_BATTERY_CHANGED received; extras=technology,icon-small,max_charging_voltage,health,max_charging_current,status,plugged,present,seq,charge_counter,level,scale,temperature,voltage,invalid_charger
+03-28 01:20:51.209  3553  3553 D wpa_supplicant: nl80211: Ignored event (cmd=34) for foreign interface (ifindex 14 wdev 0x0)
+03-28 01:20:51.209  3553  3553 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+03-28 01:20:51.209  3553  3553 D wpa_supplicant: wlan0: nl80211: New scan results available
+03-28 01:20:51.209  3553  3553 D wpa_supplicant: nl80211: Scan probed for SSID ''
+03-28 01:20:51.209  3469  3469 D BatteryMeterDrawable: onReceive action=android.intent.action.BATTERY_CHANGED
+03-28 01:20:51.209  3553  3553 D wpa_supplicant: nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472
+03-28 01:20:51.209  3553  3553 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+03-28 01:20:51.209  3469  3469 D BatteryMeterDrawable: onReceive level=100,plugType=2,status=5
+03-28 01:20:51.209  3469  3469 D BatteryMeterDrawable: Screen is off, stop charging anim
+03-28 01:20:51.209  3553  3553 D wpa_supplicant: nl80211: Received scan results (3 BSSes)
+03-28 01:20:51.209  3469  3469 D BatteryMeterDrawable: onReceive action=android.intent.action.BATTERY_CHANGED
+03-28 01:20:51.209  3553  3553 D wpa_supplicant: nl80211: Scan results indicate BSS status with b8:d5:26:d6:ed:b1 as associated
+03-28 01:20:51.209  3553  3553 D wpa_supplicant: wlan0: BSS: Start scan result update 1888
+03-28 01:20:51.209  3469  3469 D BatteryMeterDrawable: onReceive level=100,plugType=2,status=5
+03-28 01:20:51.209  3553  3553 D wpa_supplicant: wlan0: BSS: Remove id 2354 BSSID e6:8b:42:26:37:b8 SSID '' due to no match in scan
+03-28 01:20:51.209  3469  3469 D BatteryMeterDrawable: Screen is off, stop charging anim
+03-28 01:20:51.210  3553  3553 D wpa_supplicant: BSS: last_scan_res_used=3/32
+03-28 01:20:51.210  3553  3553 D wpa_supplicant: wlan0: New scan results available (own=0 ext=1)
+03-28 01:20:51.210  3553  3553 D wpa_supplicant: wlan0: Do not use results from externally requested scan operation for network selection
+03-28 01:20:51.210  3469  3469 D BatteryMeterDrawable: onReceive action=android.intent.action.BATTERY_CHANGED
+03-28 01:20:51.210  3553  3553 D wpa_supplicant: p2p-dev-wlan0: Updating scan results from sibling
+03-28 01:20:51.210  3469  3469 D BatteryMeterDrawable: onReceive level=100,plugType=2,status=5
+03-28 01:20:51.210  3469  3469 D BatteryMeterDrawable: Screen is off, stop charging anim
+03-28 01:20:51.210  3553  3553 D wpa_supplicant: nl80211: Received scan results (3 BSSes)
+03-28 01:20:51.210  3553  3553 D wpa_supplicant: p2p-dev-wlan0: BSS: Start scan result update 1888
+03-28 01:20:51.210  3553  3553 D wpa_supplicant: p2p-dev-wlan0: BSS: Remove id 2430 BSSID e6:8b:42:26:37:b8 SSID '' due to no match in scan
+03-28 01:20:51.210  6798  6798 D BatteryObserver: 2026-03-28T04:20:51.209Z: State: charging=true/USB, level=100%, temp=33.3C
+03-28 01:20:51.210  3553  3553 D wpa_supplicant: BSS: last_scan_res_used=3/32
+03-28 01:20:51.210  3553  3553 D wpa_supplicant: p2p-dev-wlan0: New scan results available (own=0 ext=1)
+03-28 01:20:51.210  3553  3553 D wpa_supplicant: p2p-dev-wlan0: Do not use results from externally requested scan operation for network selection
+03-28 01:20:51.210  3258  7739 D WificondControl: Scan result ready event
+03-28 01:20:51.211  3258  3403 V AlarmManager: remove(operation) changed bounds; rebatching
+03-28 01:20:51.212  3258  3403 D AlarmManagerService: set alarm to kernel: 89366.955000000, type=2 
+03-28 01:20:51.216  3258  3403 D WificondScannerImpl: Filtering out 1 scan results.
+03-28 01:20:51.227  9831  7040 I FrewleTileCacheManagerV: (REDACTED) Fetched %d AP models from cache
+03-28 01:20:51.249  6798  6798 D LocationService: 2026-03-28T04:20:51.249Z: getCurrentLocation#15: Location[fused -37.118245,-56.856422 hAcc=65 et=+1d0h49m16s541ms alt=24.80000114440918 vAcc=7 sAcc=??? bAcc=??? {Bundle[mParcelledData.dataSize=608]}]
+03-28 01:20:51.250  3258  7739 D BroadcastQueue: Add broadcast <BroadcastRecord{6334a29 u0 android.location.HIGH_POWER_REQUEST_CHANGE}> into [parallel | background], pending size 0
+03-28 01:20:51.250  3258  3277 D BroadcastQueue: Done with parallel broadcast [background] [BroadcastRecord{6334a29 u0 android.location.HIGH_POWER_REQUEST_CHANGE}]
+03-28 01:20:51.253  3258  4019 V AlarmManager: remove(operation) changed bounds; rebatching
+03-28 01:20:51.258  3258  4018 V AlarmManager: remove(operation) changed bounds; rebatching
